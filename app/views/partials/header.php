@@ -42,7 +42,7 @@ $headerText = $headerContent[$lang] ?? $headerContent['ES'];
 
         <a href="/" class="header__logo">
             <img
-                src="<?= htmlspecialchars($baseUrl) ?>/assets/img/logo/laex-cocteleria-logo.png"
+                src="<?= htmlspecialchars($baseUrl) ?>/assets/img/logo/laex.svg"
                 alt="La Ex Coctelería"
                 title="La Ex Coctelería"
                 >

@@ -72,7 +72,7 @@ $baseUrl = rtrim($baseUrl ?? '', '/');
 $currentLang = strtoupper($lang ?? 'ES');
 $footerText = $footerContent[$currentLang] ?? $footerContent['ES'];
 
-$logoUrl = '/assets/img/logo/laex-cocteleria-logo-white.png';
+$logoUrl = '/assets/img/logo/laex.svg';
 $homeUrl = $baseUrl . '/';
 ?>
 
@@ -83,7 +83,7 @@ $homeUrl = $baseUrl . '/';
 
             <div class="footer-brand">
                 <a href="<?= htmlspecialchars($homeUrl, ENT_QUOTES, 'UTF-8') ?>">
-                    <img src="<?= htmlspecialchars($logoUrl, ENT_QUOTES, 'UTF-8') ?>" alt="La Ex Coctelería" width="120">
+                    <img src="<?= htmlspecialchars($logoUrl, ENT_QUOTES, 'UTF-8') ?>" alt="La Ex Coctelería" width="120" style="filter: brightness(0) invert(1)">
                 </a>
 
                 <p><?= htmlspecialchars($footerText['description'], ENT_QUOTES, 'UTF-8') ?></p>
