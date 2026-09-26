@@ -10,7 +10,7 @@
 
 $baseUrl = rtrim($baseUrl ?? '', '/');
 
-$faviconUrl = $baseUrl . '/assets/img/favicon.png?v=5';
+$faviconUrl = $baseUrl . '/assets/img/favicon.png?v=6';
 $fontAwesomeUrl = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css';
 $fontsCssUrl = $baseUrl . '/assets/css/fonts.css';
 $styleCssUrl = $baseUrl . '/assets/css/style.css';

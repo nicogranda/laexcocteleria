@@ -27,7 +27,7 @@ class SEOController
             : $_ENV['APP_URL'] ?? 'https://laexcocteleria';
 
         $this->brand = $_ENV['APP_NAME'] ?? 'Borjas Design';
-        $this->defaultImage = $this->baseUrl . '/images/logo.png';
+        $this->defaultImage = $this->baseUrl . '/assets/img/logo/laex-cocteleria-logo.png';
         $this->city = $_ENV['APP_CITY'] ?? 'Katy';
         $this->state = $_ENV['APP_STATE'] ?? 'Texas';
 
