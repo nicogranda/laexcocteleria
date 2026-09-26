@@ -1,0 +1,23 @@
+.logo {
+    margin: 0 auto;
+    width: 150px;
+}
+
+/*.container-form {*/
+/*    margin: 0 auto;*/
+/*    width: 30%;*/
+/*    gap: 20px;*/
+/*}*/
+
+.container-form form input {
+    width: 100%;
+    height: 55px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .container-form {
+        width: 90%;
+    }   
+}

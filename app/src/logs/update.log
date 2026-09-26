@@ -1,0 +1,1106 @@
+
+========== UPDATE INICIO ==========
+Product ID: 91
+✓ Producto actualizado
+Total variantes recibidas: 4
+Variante 0: ID=124
+  → Actualizando variante 124
+
+  updateVariant() para ID=124
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=157
+  → Actualizando variante 157
+
+  updateVariant() para ID=157
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=163
+  → Actualizando variante 163
+
+  updateVariant() para ID=163
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=164
+  → Actualizando variante 164
+
+  updateVariant() para ID=164
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 91
+✓ Producto actualizado
+Total variantes recibidas: 4
+Variante 0: ID=124
+  → Actualizando variante 124
+
+  updateVariant() para ID=124
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=157
+  → Actualizando variante 157
+
+  updateVariant() para ID=157
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=163
+  → Actualizando variante 163
+
+  updateVariant() para ID=163
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=164
+  → Actualizando variante 164
+
+  updateVariant() para ID=164
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 91
+✓ Producto principal actualizado
+
+========== UPDATE INICIO ==========
+Product ID: 91
+✓ Producto principal actualizado
+
+========== UPDATE INICIO ==========
+Product ID: 91
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma es
+Total variantes recibidas: 4
+Variante 0: ID=124
+  → Actualizando variante 124
+
+  updateVariant() para ID=124
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=157
+  → Actualizando variante 157
+
+  updateVariant() para ID=157
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=163
+  → Actualizando variante 163
+
+  updateVariant() para ID=163
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=164
+  → Actualizando variante 164
+
+  updateVariant() para ID=164
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 91
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma es
+Total variantes recibidas: 4
+Variante 0: ID=124
+  → Actualizando variante 124
+
+  updateVariant() para ID=124
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=157
+  → Actualizando variante 157
+
+  updateVariant() para ID=157
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=163
+  → Actualizando variante 163
+
+  updateVariant() para ID=163
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=164
+  → Actualizando variante 164
+
+  updateVariant() para ID=164
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Circle Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 90
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma 
+Total variantes recibidas: 4
+Variante 0: ID=123
+  → Actualizando variante 123
+
+  updateVariant() para ID=123
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=158
+  → Actualizando variante 158
+
+  updateVariant() para ID=158
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=161
+  → Actualizando variante 161
+
+  updateVariant() para ID=161
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=162
+  → Actualizando variante 162
+
+  updateVariant() para ID=162
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 90
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma 
+Total variantes recibidas: 4
+Variante 0: ID=123
+  → Actualizando variante 123
+
+  updateVariant() para ID=123
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=158
+  → Actualizando variante 158
+
+  updateVariant() para ID=158
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=161
+  → Actualizando variante 161
+
+  updateVariant() para ID=161
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=162
+  → Actualizando variante 162
+
+  updateVariant() para ID=162
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":"1"}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 90
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma 
+Total variantes recibidas: 4
+Variante 0: ID=123
+  → Actualizando variante 123
+
+  updateVariant() para ID=123
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=158
+  → Actualizando variante 158
+
+  updateVariant() para ID=158
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=161
+  → Actualizando variante 161
+
+  updateVariant() para ID=161
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=162
+  → Actualizando variante 162
+
+  updateVariant() para ID=162
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 90
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma 
+Total variantes recibidas: 4
+Variante 0: ID=123
+  → Actualizando variante 123
+
+  updateVariant() para ID=123
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=158
+  → Actualizando variante 158
+
+  updateVariant() para ID=158
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=161
+  → Actualizando variante 161
+
+  updateVariant() para ID=161
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=162
+  → Actualizando variante 162
+
+  updateVariant() para ID=162
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 90
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma 
+Total variantes recibidas: 4
+Variante 0: ID=123
+  → Actualizando variante 123
+
+  updateVariant() para ID=123
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=158
+  → Actualizando variante 158
+
+  updateVariant() para ID=158
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=161
+  → Actualizando variante 161
+
+  updateVariant() para ID=161
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=162
+  → Actualizando variante 162
+
+  updateVariant() para ID=162
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 90
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma 
+Total variantes recibidas: 4
+Variante 0: ID=123
+  → Actualizando variante 123
+
+  updateVariant() para ID=123
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=158
+  → Actualizando variante 158
+
+  updateVariant() para ID=158
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=161
+  → Actualizando variante 161
+
+  updateVariant() para ID=161
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=162
+  → Actualizando variante 162
+
+  updateVariant() para ID=162
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 90
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma 
+Total variantes recibidas: 4
+Variante 0: ID=123
+  → Actualizando variante 123
+
+  updateVariant() para ID=123
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=158
+  → Actualizando variante 158
+
+  updateVariant() para ID=158
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=161
+  → Actualizando variante 161
+
+  updateVariant() para ID=161
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=162
+  → Actualizando variante 162
+
+  updateVariant() para ID=162
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 90
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma es
+Total variantes recibidas: 4
+Variante 0: ID=123
+  → Actualizando variante 123
+
+  updateVariant() para ID=123
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=158
+  → Actualizando variante 158
+
+  updateVariant() para ID=158
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=161
+  → Actualizando variante 161
+
+  updateVariant() para ID=161
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=162
+  → Actualizando variante 162
+
+  updateVariant() para ID=162
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 90
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma es
+Total variantes recibidas: 4
+Variante 0: ID=123
+  → Actualizando variante 123
+
+  updateVariant() para ID=123
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=158
+  → Actualizando variante 158
+
+  updateVariant() para ID=158
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=161
+  → Actualizando variante 161
+
+  updateVariant() para ID=161
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=162
+  → Actualizando variante 162
+
+  updateVariant() para ID=162
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 90
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: 
+Total variantes recibidas: 4
+Variante 0: ID=123
+  → Actualizando variante 123
+
+  updateVariant() para ID=123
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=158
+  → Actualizando variante 158
+
+  updateVariant() para ID=158
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=161
+  → Actualizando variante 161
+
+  updateVariant() para ID=161
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=162
+  → Actualizando variante 162
+
+  updateVariant() para ID=162
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 90
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: 
+Total variantes recibidas: 4
+Variante 0: ID=123
+  → Actualizando variante 123
+
+  updateVariant() para ID=123
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=158
+  → Actualizando variante 158
+
+  updateVariant() para ID=158
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=161
+  → Actualizando variante 161
+
+  updateVariant() para ID=161
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=162
+  → Actualizando variante 162
+
+  updateVariant() para ID=162
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 90
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: 
+Total variantes recibidas: 4
+Variante 0: ID=123
+  → Actualizando variante 123
+
+  updateVariant() para ID=123
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=158
+  → Actualizando variante 158
+
+  updateVariant() para ID=158
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=161
+  → Actualizando variante 161
+
+  updateVariant() para ID=161
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=162
+  → Actualizando variante 162
+
+  updateVariant() para ID=162
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 90
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: 
+Total variantes recibidas: 4
+Variante 0: ID=123
+  → Actualizando variante 123
+
+  updateVariant() para ID=123
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=158
+  → Actualizando variante 158
+
+  updateVariant() para ID=158
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=161
+  → Actualizando variante 161
+
+  updateVariant() para ID=161
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=162
+  → Actualizando variante 162
+
+  updateVariant() para ID=162
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 90
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: en
+Total variantes recibidas: 4
+Variante 0: ID=123
+  → Actualizando variante 123
+
+  updateVariant() para ID=123
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=158
+  → Actualizando variante 158
+
+  updateVariant() para ID=158
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-1","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 2: ID=161
+  → Actualizando variante 161
+
+  updateVariant() para ID=161
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-2","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 3: ID=162
+  → Actualizando variante 162
+
+  updateVariant() para ID=162
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Heather Chain-3","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":26,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 89
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: en
+Total variantes recibidas: 1
+Variante 0: ID=122
+  → Actualizando variante 122
+
+  updateVariant() para ID=122
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Camila Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0.1,"length":18,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 88
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: en
+Total variantes recibidas: 2
+Variante 0: ID=121
+  → Actualizando variante 121
+
+  updateVariant() para ID=121
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Starfish Chain-0","price":26,"stock":1,"weight":0.5,"width":0.1,"height":0.1,"length":18,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=160
+  → Actualizando variante 160
+
+  updateVariant() para ID=160
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Starfish Chain-1","price":26,"stock":1,"weight":0.5,"width":0.1,"height":0.1,"length":18,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 88
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: en
+Total variantes recibidas: 2
+Variante 0: ID=121
+  → Actualizando variante 121
+
+  updateVariant() para ID=121
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Starfish Chain-0","price":26,"stock":1,"weight":0.5,"width":0.1,"height":0.1,"length":18,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=160
+  → Actualizando variante 160
+
+  updateVariant() para ID=160
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Starfish Chain-1","price":26,"stock":1,"weight":0.5,"width":0.1,"height":0.1,"length":18,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 87
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: en
+Total variantes recibidas: 2
+Variante 0: ID=120
+  → Actualizando variante 120
+
+  updateVariant() para ID=120
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Crossed Heart Chain-0","price":28,"stock":1,"weight":0.5,"width":0.1,"height":0.1,"length":17,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+Variante 1: ID=159
+  → Actualizando variante 159
+
+  updateVariant() para ID=159
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Crossed Heart Chain-1","price":28,"stock":1,"weight":0.5,"width":0.1,"height":0.1,"length":17,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 86
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: en
+Total variantes recibidas: 1
+Variante 0: ID=119
+  → Actualizando variante 119
+
+  updateVariant() para ID=119
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Horseshoe Chain-0","price":35,"stock":2,"weight":0.1,"width":0.4,"height":0.4,"length":19,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 83
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: en
+Total variantes recibidas: 1
+Variante 0: ID=117
+  → Actualizando variante 117
+
+  updateVariant() para ID=117
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Flat Chain-0","price":26,"stock":2,"weight":0.2,"width":0.25,"height":0.25,"length":17,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 81
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: en
+Total variantes recibidas: 1
+Variante 0: ID=115
+  → Actualizando variante 115
+
+  updateVariant() para ID=115
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Faceted Chain-0","price":29,"stock":2,"weight":2,"width":0.25,"height":0.25,"length":20,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 76
+
+========== UPDATE INICIO ==========
+Product ID: 76
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: en
+Total variantes recibidas: 1
+Variante 0: ID=111
+  → Actualizando variante 111
+
+  updateVariant() para ID=111
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Cherry Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0,"length":17,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 76
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: en
+Total variantes recibidas: 1
+Variante 0: ID=111
+  → Actualizando variante 111
+
+  updateVariant() para ID=111
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Cherry Chain-0","price":26,"stock":1,"weight":0.1,"width":0.1,"height":0,"length":17,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 27
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: en
+Total variantes recibidas: 1
+Variante 0: ID=65
+  → Actualizando variante 65
+
+  updateVariant() para ID=65
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Dual Chain Gold Necklace-0","price":31,"stock":2,"weight":0.8,"width":0.5,"height":0.2,"length":18,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 20
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: en
+Total variantes recibidas: 1
+Variante 0: ID=154
+  → Actualizando variante 154
+
+  updateVariant() para ID=154
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Sea Horse Chain-0","price":26,"stock":2,"weight":0.1,"width":0.1,"height":0.1,"length":17.5,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 19
+
+========== UPDATE INICIO ==========
+Product ID: 19
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: es
+Total variantes recibidas: 1
+Variante 0: ID=57
+  → Actualizando variante 57
+
+  updateVariant() para ID=57
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Cadena Shell-0","price":28,"stock":2,"weight":0.3,"width":0.1,"height":0.1,"length":17.5,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 81
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: es
+Total variantes recibidas: 1
+Variante 0: ID=115
+  → Actualizando variante 115
+
+  updateVariant() para ID=115
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Cadena Faceted-0","price":29,"stock":2,"weight":2,"width":0.25,"height":0.25,"length":20,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 81
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: es
+Total variantes recibidas: 1
+Variante 0: ID=115
+  → Actualizando variante 115
+
+  updateVariant() para ID=115
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Cadena Faceted-0","price":29,"stock":2,"weight":2,"width":0.25,"height":0.25,"length":20,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 6
+
+========== UPDATE INICIO ==========
+Product ID: 6
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: es
+Total variantes recibidas: 1
+Variante 0: ID=46
+  → Actualizando variante 46
+
+  updateVariant() para ID=46
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Earrings-Argollas Chic Squares-0","price":25,"stock":0,"weight":0.3,"width":1,"height":0.5,"length":10,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+
+
+========== UPDATE INICIO ==========
+Product ID: 18
+✓ Producto principal actualizado
+✓ Traducción actualizada para idioma: en
+Total variantes recibidas: 1
+Variante 0: ID=56
+  → Actualizando variante 56
+
+  updateVariant() para ID=56
+  Imagen actual: products/default.png
+  Sin nueva imagen
+  Datos a actualizar: {"sku":"Necklace-Pebbles Chain-0","price":22,"stock":2,"weight":0.3,"width":0.5,"height":0.5,"length":18.5,"image_url":"products\/default.png","is_active":1,"user_id":1}
+  ✓ Variante actualizada
+  ✓ Atributos anteriores borrados
+========== UPDATE FIN ==========
+

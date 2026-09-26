@@ -1,0 +1,304 @@
+:root {
+    --color-primary:#A10926;
+    --color-primary-dark:#7A071C;
+    --color-secondary:#e2dda8;
+    --color-third:#F2B797;
+    --color-fourth:#ebe1f4;
+    --color-fifth:#f7f2e7;
+
+    --color-brand:#A10926;
+    --color-contrasting:#DE9CFF;
+
+    --color-body:#FECCEA;
+    --color-bg:#ffffff;
+    --color-text:#000000;
+    --color-muted:#666666;
+    --color-border:#e5e5e5;
+
+    --font-primary:'grotta-trialmedium',sans-serif;
+    --font-brand:'Arial Black',Arial,Helvetica,sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: white;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+    color: var(--color-text);
+}
+
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    /* font-size: inherit; */
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    min-height: calc(100vh - 455px); /* 376px = alto del footer */
+}
+
+
+.hero-portfolio {
+  height: 70vh;              /* Altura del hero */
+  width: 100%;                /* Ocupa todo el ancho */
+  overflow: hidden;           /* Evita que salga scroll si algo se sale */
+  position: relative;
+}
+
+.hero-portfolio img {
+  width: 100%;                /* Ancho completo */
+  height: 100%;               /* Ocupa toda la altura del hero */
+  object-fit: cover;          /* Mantiene proporción y recorta lo que sobra */
+  object-position: center;    /* Centra la parte importante de la imagen */
+  display: block;             /* Quita espacios debajo del img */
+}
+
+.principal {
+    font-size: 32px;
+    text-align: center;
+    color: var(--color-primary); 
+    font-family: var(--font-principal);
+    padding: 20px 0;
+    margin: 0 auto;
+ 
+}
+
+.slogan {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    
+}
+
+.container {
+    width:60% !important;
+    margin:0 auto;
+    padding: 20px;
+}
+
+.principal-service {
+    color: var(--color-text);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+	padding: 20px 0;
+	gap: 20px;
+
+}
+
+.principal-service article {
+    width: 300px; /* tamaño del cuadrado */
+    height: 300px; /* tamaño del cuadrado */
+    padding: 20px;
+    box-sizing: border-box; /* asegura que el borde no afecte el tamaño */
+    font-family: var(--font-primary, sans-serif); /* usa la fuente principal */
+    color: var(--color-primary); /* color de texto */
+}
+
+.introduces {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    color: var(--color-text);
+    font-family: var(--font-principal);
+    padding: 10px 0px;
+    text-align: justify; /* Justifica el texto */
+}
+
+.sub-principal {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    font-family: var(--font-principal);
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.sub-title {
+    margin: 0 auto;
+    text-align: left;
+    font-family: var(--font-principal);
+    font-weight: 900;
+    padding: 5px 0;
+}
+
+.content {
+    width: 60%;
+    margin:0 auto;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+
+.object{
+	padding: 10px;
+	font-style: italic;
+	font-size: 24px;
+}
+
+.home-services {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px; /* Espacio entre elementos */
+}
+
+.services {
+    color: #fff; /* Texto en blanco */
+    font-size: 16px;
+    margin: 0; /* Eliminar m叩rgenes por defecto */
+}
+
+.vignette {
+    width: 16px; /* Tama単o de la vi単eta */
+    height: 16px;
+    margin-right: 8px; /* Espacio entre vi単eta e h2 */
+}
+
+.home-services h2 {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Asegura que no haya espacio adicional */
+}
+
+.home-services h2 a {
+    color: #fff; /* Color del enlace en blanco */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+.home-services h2 a:hover {
+    text-decoration: underline; /* Subrayado al pasar sobre el enlace */
+}
+
+
+.legal-text {
+    margin:0 auto; 
+    width: 60%;
+    text-align: justify;
+    color: black;
+}
+
+.principal-service article {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    margin: 10px; /* Espaciado entre los artículos */
+}
+
+/* Colores específicos para cada artículo */
+.principal-service .article-graphic {
+    background-color: #E10B76;
+}
+
+.principal-service .article-website {
+    background-color: #10C3F3;
+}
+
+.principal-service .article-marketing {
+    background-color: #3ED53E;
+}
+
+/* Estilos para los títulos */
+.principal-service h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.principal-service h3 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Estilos para el listado */
+.principal-service ul {
+    text-align: left;
+    padding-left: 20px;
+    list-style: none;
+}
+
+/* Estilo para el botón de enviar */
+.button-send {
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #e14d23;
+}
+
+@media only screen and (max-width: 768px) {
+    
+	.desk {
+	  display: none;
+	}
+	
+	.mobile {
+	  display: block;
+	}
+
+
+    .introduce {
+        width: 90%;
+        margin: auto;
+        align-items: center; /* Center the .introduce divs horizontally */
+        text-align: center;  /* Center text inside .introduce divs */
+    }
+    
+    .object {
+        width: 80%;
+    }
+    
+	.services {
+	    font-size: 10px;
+	  
+	}
+
+    .vignette{
+    	width: 20px;
+    	height: auto;
+    	padding: 10px;
+    }
+
+    .legal-text {
+        width:95%;
+    }
+    .principal-service {
+        flex-direction: column;
+    }
+
+    .principal-service article {
+        width: 100%; /* Ajuste al ancho completo de la pantalla */
+        margin: 10px 0; /* Espaciado entre artículos */
+    }
+}

@@ -1,0 +1,662 @@
+2026-03-15 06:08:55 ADD llamado
+POST: Array
+(
+    [product_id] => 0
+    [variant_id] => 0
+)
+
+
+2026-03-15 06:31:15 ADD llamado
+POST: Array
+(
+    [product_id] => 155
+)
+
+
+2026-03-15 06:39:03 ADD llamado
+POST: Array
+(
+    [product_id] => 0
+    [variant_id] => 155
+)
+
+
+2026-03-15 06:41:33 ADD llamado
+POST: Array
+(
+    [product_id] => 0
+    [variant_id] => 155
+)
+
+
+2026-03-15 06:44:10 ADD llamado
+POST: Array
+(
+    [variant_id] => 155
+)
+
+
+2026-03-15 07:03:36 ADD llamado
+POST: Array
+(
+    [variant_id] => 155
+)
+
+2026-03-15 07:12:24 ADD llamado
+POST: Array
+(
+    [variant_id] => 155
+)
+
+2026-03-15 07:15:58 ADD llamado
+POST: Array
+(
+    [variant_id] => 155
+    [quantity] => 1
+)
+
+2026-03-15 07:23:41 ADD llamado
+POST: Array
+(
+    [variant_id] => 155
+    [quantity] => 1
+)
+
+2026-03-15 07:31:12 ADD llamado
+POST: Array
+(
+    [variant_id] => 155
+    [quantity] => 1
+)
+
+2026-03-15 07:31:12 Cart after add:
+Array
+(
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [qty] => 4
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+)
+
+
+2026-03-15 07:37:11 ADD llamado
+POST: Array
+(
+    [variant_id] => 155
+    [quantity] => 1
+)
+
+2026-03-15 07:37:11 Cart after add:
+Array
+(
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [quantity] => 5
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+)
+
+
+2026-03-15 07:44:18 ADD llamado
+POST: Array
+(
+    [variant_id] => 155
+    [quantity] => 1
+)
+
+2026-03-15 07:44:18 Cart after add (stored in session):
+Array
+(
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [quantity] => 6
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+)
+
+
+2026-03-15 07:46:48 ADD llamado
+POST: Array
+(
+    [variant_id] => 155
+    [quantity] => 1
+)
+
+2026-03-15 07:46:48 Cart after add (stored in session):
+Array
+(
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [quantity] => 7
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+)
+
+
+2026-03-15 07:55:53 ADD llamado
+POST: Array
+(
+    [variant_id] => 51
+    [quantity] => 1
+)
+
+2026-03-15 07:55:53 Cart after add (stored in session):
+Array
+(
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [quantity] => 7
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+    [51] => Array
+        (
+            [variant_id] => 51
+            [product_id] => 13
+            [name] => Dual Chain
+            [price] => 31
+            [quantity] => 1
+            [weight] => 0.8
+            [width] => 0.5
+            [height] => 0.1
+            [length] => 18
+            [image] => 13/images/dual-chain.png
+        )
+
+)
+
+
+2026-03-15 11:05:29 ADD llamado
+POST: Array
+(
+    [variant_id] => 155
+    [quantity] => 1
+)
+
+2026-03-15 11:05:29 Cart after add (stored in session):
+Array
+(
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [quantity] => 1
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+)
+
+
+2026-03-15 13:29:19 ADD llamado
+POST: Array
+(
+    [variant_id] => 51
+    [quantity] => 1
+)
+
+2026-03-15 13:29:19 Cart after add (stored in session):
+Array
+(
+    [51] => Array
+        (
+            [variant_id] => 51
+            [product_id] => 13
+            [name] => Dual Chain
+            [price] => 31
+            [quantity] => 1
+            [weight] => 0.8
+            [width] => 0.5
+            [height] => 0.1
+            [length] => 18
+            [image] => 13/images/dual-chain.png
+        )
+
+)
+
+
+2026-03-15 15:59:17 ADD llamado
+POST: Array
+(
+    [variant_id] => 155
+    [quantity] => 1
+)
+
+2026-03-15 15:59:17 Cart after add (stored in session):
+Array
+(
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [quantity] => 1
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+)
+
+
+2026-03-15 19:12:05 ADD llamado
+POST: Array
+(
+    [variant_id] => 155
+    [quantity] => 1
+)
+
+2026-03-15 19:12:05 Cart after add (stored in session):
+Array
+(
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [quantity] => 1
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+)
+
+
+2026-03-15 19:47:19 ADD llamado
+POST: Array
+(
+    [variant_id] => 118
+    [quantity] => 1
+)
+
+2026-03-15 19:47:19 Cart after add (stored in session):
+Array
+(
+    [118] => Array
+        (
+            [variant_id] => 118
+            [product_id] => 85
+            [name] => Pulsera Triple Almond
+            [price] => 35
+            [quantity] => 1
+            [weight] => 1
+            [width] => 2.5
+            [height] => 0.1
+            [length] => 2.5
+            [image] => 85/images/bracelets-pulsera-triple-almond-e1ff7c.png
+        )
+
+)
+
+
+2026-03-16 15:04:46 ADD llamado
+POST: Array
+(
+    [variant_id] => 118
+    [quantity] => 1
+)
+
+2026-03-16 15:04:46 Cart after add (stored in session):
+Array
+(
+    [118] => Array
+        (
+            [variant_id] => 118
+            [product_id] => 85
+            [name] => Pulsera Triple Almond
+            [price] => 35
+            [quantity] => 1
+            [weight] => 1
+            [width] => 2.5
+            [height] => 0.1
+            [length] => 2.5
+            [image] => 85/images/bracelets-pulsera-triple-almond-e1ff7c.png
+        )
+
+)
+
+
+2026-03-16 15:17:43 ADD llamado
+POST: Array
+(
+    [variant_id] => 155
+    [quantity] => 1
+)
+
+2026-03-16 15:17:43 Cart after add (stored in session):
+Array
+(
+    [118] => Array
+        (
+            [variant_id] => 118
+            [product_id] => 85
+            [name] => Pulsera Triple Almond
+            [price] => 35
+            [quantity] => 1
+            [weight] => 1
+            [width] => 2.5
+            [height] => 0.1
+            [length] => 2.5
+            [image] => 85/images/bracelets-pulsera-triple-almond-e1ff7c.png
+        )
+
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [quantity] => 1
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+)
+
+
+2026-03-16 15:18:48 ADD llamado
+POST: Array
+(
+    [variant_id] => 118
+    [quantity] => 1
+)
+
+2026-03-16 15:18:48 Cart after add (stored in session):
+Array
+(
+    [118] => Array
+        (
+            [variant_id] => 118
+            [product_id] => 85
+            [name] => Pulsera Triple Almond
+            [price] => 35
+            [quantity] => 2
+            [weight] => 1
+            [width] => 2.5
+            [height] => 0.1
+            [length] => 2.5
+            [image] => 85/images/bracelets-pulsera-triple-almond-e1ff7c.png
+        )
+
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [quantity] => 1
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+)
+
+
+2026-03-16 15:23:03 ADD llamado
+POST: Array
+(
+    [variant_id] => 118
+    [quantity] => 1
+)
+
+2026-03-16 15:23:03 Cart after add (stored in session):
+Array
+(
+    [118] => Array
+        (
+            [variant_id] => 118
+            [product_id] => 85
+            [name] => Pulsera Triple Almond
+            [price] => 35
+            [quantity] => 3
+            [weight] => 1
+            [width] => 2.5
+            [height] => 0.1
+            [length] => 2.5
+            [image] => 85/images/bracelets-pulsera-triple-almond-e1ff7c.png
+        )
+
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [quantity] => 1
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+)
+
+
+2026-03-16 15:30:49 ADD llamado
+POST: Array
+(
+    [variant_id] => 118
+    [quantity] => 1
+)
+
+2026-03-16 15:30:49 Cart after add (stored in session):
+Array
+(
+    [118] => Array
+        (
+            [variant_id] => 118
+            [product_id] => 85
+            [name] => Pulsera Triple Almond
+            [price] => 35
+            [quantity] => 4
+            [weight] => 1
+            [width] => 2.5
+            [height] => 0.1
+            [length] => 2.5
+            [image] => 85/images/bracelets-pulsera-triple-almond-e1ff7c.png
+        )
+
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [quantity] => 1
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+)
+
+
+2026-03-16 15:30:57 ADD llamado
+POST: Array
+(
+    [variant_id] => 118
+    [quantity] => 1
+)
+
+2026-03-16 15:30:57 Cart after add (stored in session):
+Array
+(
+    [118] => Array
+        (
+            [variant_id] => 118
+            [product_id] => 85
+            [name] => Pulsera Triple Almond
+            [price] => 35
+            [quantity] => 5
+            [weight] => 1
+            [width] => 2.5
+            [height] => 0.1
+            [length] => 2.5
+            [image] => 85/images/bracelets-pulsera-triple-almond-e1ff7c.png
+        )
+
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [quantity] => 1
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+)
+
+
+2026-03-16 15:31:57 ADD llamado
+POST: Array
+(
+    [variant_id] => 118
+    [quantity] => 1
+)
+
+2026-03-16 15:31:57 Cart after add (stored in session):
+Array
+(
+    [118] => Array
+        (
+            [variant_id] => 118
+            [product_id] => 85
+            [name] => Pulsera Triple Almond
+            [price] => 35
+            [quantity] => 6
+            [weight] => 1
+            [width] => 2.5
+            [height] => 0.1
+            [length] => 2.5
+            [image] => 85/images/bracelets-pulsera-triple-almond-e1ff7c.png
+        )
+
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [quantity] => 1
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+)
+
+
+2026-03-16 15:32:06 ADD llamado
+POST: Array
+(
+    [variant_id] => 118
+    [quantity] => 1
+)
+
+2026-03-16 15:32:06 Cart after add (stored in session):
+Array
+(
+    [118] => Array
+        (
+            [variant_id] => 118
+            [product_id] => 85
+            [name] => Pulsera Triple Almond
+            [price] => 35
+            [quantity] => 7
+            [weight] => 1
+            [width] => 2.5
+            [height] => 0.1
+            [length] => 2.5
+            [image] => 85/images/bracelets-pulsera-triple-almond-e1ff7c.png
+        )
+
+    [155] => Array
+        (
+            [variant_id] => 155
+            [product_id] => 95
+            [name] => Emerald Bracelet
+            [price] => 28
+            [quantity] => 1
+            [weight] => 1
+            [width] => 1
+            [height] => 1
+            [length] => 1
+            [image] => 95/images/bracelets-emerald-bracelet-7c1c50.png
+        )
+
+)
+
+

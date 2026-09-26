@@ -1,0 +1,295 @@
+[13-Mar-2026 20:53:37 UTC] PHP Fatal error:  Uncaught Error: Class "App\Domains\Categories\Categories" not found in /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php:20
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/index.php(48): App\Domains\Categories\CategoriesController->__construct()
+#1 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php on line 20
+[13-Mar-2026 20:54:55 UTC] PHP Fatal error:  Uncaught Error: Class "App\Domains\Categories\Categories" not found in /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php:20
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/index.php(48): App\Domains\Categories\CategoriesController->__construct()
+#1 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php on line 20
+[13-Mar-2026 20:54:57 UTC] PHP Fatal error:  Uncaught Error: Class "App\Domains\Categories\Categories" not found in /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php:20
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/index.php(48): App\Domains\Categories\CategoriesController->__construct()
+#1 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php on line 20
+[13-Mar-2026 20:59:27 UTC] PHP Fatal error:  Uncaught Error: Class "App\Domains\Categories\Categories" not found in /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php:20
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/index.php(48): App\Domains\Categories\CategoriesController->__construct()
+#1 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php on line 20
+[13-Mar-2026 21:01:36 UTC] PHP Fatal error:  Uncaught Error: Class "App\Domains\Categories\Categories" not found in /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php:20
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/index.php(48): App\Domains\Categories\CategoriesController->__construct()
+#1 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php on line 20
+[13-Mar-2026 21:01:49 UTC] PHP Fatal error:  Uncaught Error: Class "App\Models\Model" not found in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php:6
+Stack trace:
+#0 /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php(14): require_once()
+#1 /home/qef1iicpy2my/public_html/index.php(44): require_once('/home/qef1iicpy...')
+#2 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 6
+[13-Mar-2026 21:03:19 UTC] PHP Fatal error:  Uncaught Error: Class "App\Domains\Categories\Categories" not found in /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php:20
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/index.php(48): App\Domains\Categories\CategoriesController->__construct()
+#1 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php on line 20
+[13-Mar-2026 21:03:45 UTC] PHP Fatal error:  Uncaught Error: Class "App\Shared\Model" not found in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php:6
+Stack trace:
+#0 /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php(14): require_once()
+#1 /home/qef1iicpy2my/public_html/index.php(44): require_once('/home/qef1iicpy...')
+#2 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 6
+[13-Mar-2026 21:03:59 UTC] PHP Fatal error:  Uncaught Error: Class "App\Domains\Categories\Categories" not found in /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php:20
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/index.php(48): App\Domains\Categories\CategoriesController->__construct()
+#1 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php on line 20
+[13-Mar-2026 21:05:05 UTC] PHP Fatal error:  Uncaught Error: Class "App\Shared\Model" not found in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php:6
+Stack trace:
+#0 /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php(12): require_once()
+#1 /home/qef1iicpy2my/public_html/index.php(44): require_once('/home/qef1iicpy...')
+#2 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 6
+[13-Mar-2026 21:05:48 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/app/src/Domains/Categories/../Shared/Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 5
+[13-Mar-2026 21:05:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/app/src/Domains/Categories/../Shared/Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php:5
+Stack trace:
+#0 /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php(12): require_once()
+#1 /home/qef1iicpy2my/public_html/index.php(44): require_once('/home/qef1iicpy...')
+#2 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 5
+[13-Mar-2026 21:06:33 UTC] PHP Fatal error:  Uncaught Error: Class "App\Shared\Model" not found in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php:9
+Stack trace:
+#0 /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php(12): require_once()
+#1 /home/qef1iicpy2my/public_html/index.php(44): require_once('/home/qef1iicpy...')
+#2 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 9
+[13-Mar-2026 21:08:23 UTC] PHP Fatal error:  Declaration of App\Domains\Categories\Categories::getByLanguage(string $lang = 'EN'): array must be compatible with App\Models\Model::getByLanguage(string $lang, array $conditions = []): array in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 21
+[13-Mar-2026 21:09:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'active' in 'WHERE' in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php:42
+Stack trace:
+#0 /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php(42): mysqli->prepare()
+#1 /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php(33): App\Domains\Categories\Categories->getByLanguage()
+#2 /home/qef1iicpy2my/public_html/index.php(49): App\Domains\Categories\CategoriesController->getCategories()
+#3 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 42
+[13-Mar-2026 21:10:33 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/app/src/Domains/Categories/../Shared/Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 4
+[13-Mar-2026 21:10:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/app/src/Domains/Categories/../Shared/Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php:4
+Stack trace:
+#0 /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php(12): require_once()
+#1 /home/qef1iicpy2my/public_html/index.php(44): require_once('/home/qef1iicpy...')
+#2 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 4
+[13-Mar-2026 21:11:34 UTC] PHP Fatal error:  Uncaught Error: Class "App\Shared\Model" not found in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php:7
+Stack trace:
+#0 /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php(12): require_once()
+#1 /home/qef1iicpy2my/public_html/index.php(44): require_once('/home/qef1iicpy...')
+#2 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 7
+[13-Mar-2026 21:12:22 UTC] PHP Fatal error:  Type of App\Models\Admin\Product::$table must be string (as in class App\Models\Model) in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 7
+[13-Mar-2026 21:13:58 UTC] PHP Fatal error:  Type of App\Models\Admin\Product::$table must be string (as in class App\Models\Model) in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 7
+[13-Mar-2026 21:14:01 UTC] PHP Fatal error:  Type of App\Models\Admin\Product::$table must be string (as in class App\Models\Model) in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 7
+[13-Mar-2026 21:20:26 UTC] PHP Fatal error:  Type of App\Models\Admin\Product::$table must be string (as in class App\Models\Model) in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 7
+[13-Mar-2026 21:26:27 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:28:28 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:33:49 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:34:34 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:35:36 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:41:28 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:41:58 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:45:35 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:47:55 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:52:32 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:53:31 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:53:33 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:54:35 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:54:42 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:54:49 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:54:55 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 21:54:58 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 22:00:36 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 22:00:39 UTC] PHP Fatal error:  Cannot declare class App\Models\Model, because the name is already in use in /home/qef1iicpy2my/public_html/app/models/Model.php on line 7
+[13-Mar-2026 22:06:24 UTC] PHP Fatal error:  Uncaught Error: Class "App\Shared\Model" not found in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php:6
+Stack trace:
+#0 /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php(12): require_once()
+#1 /home/qef1iicpy2my/public_html/index.php(24): require_once('/home/qef1iicpy...')
+#2 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 6
+[13-Mar-2026 22:08:13 UTC] PHP Fatal error:  Uncaught Error: Class "App\Shared\Model" not found in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php:6
+Stack trace:
+#0 /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php(12): require_once()
+#1 /home/qef1iicpy2my/public_html/index.php(24): require_once('/home/qef1iicpy...')
+#2 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 6
+[13-Mar-2026 22:11:37 UTC] PHP Fatal error:  Uncaught Error: Class "App\Shared\Model" not found in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php:6
+Stack trace:
+#0 /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php(12): require_once()
+#1 /home/qef1iicpy2my/public_html/index.php(24): require_once('/home/qef1iicpy...')
+#2 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 6
+[13-Mar-2026 22:11:40 UTC] PHP Fatal error:  Uncaught Error: Class "App\Shared\Model" not found in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php:6
+Stack trace:
+#0 /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php(12): require_once()
+#1 /home/qef1iicpy2my/public_html/index.php(24): require_once('/home/qef1iicpy...')
+#2 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 6
+[13-Mar-2026 22:11:48 UTC] PHP Fatal error:  Uncaught Error: Class "App\Shared\Model" not found in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php:6
+Stack trace:
+#0 /home/qef1iicpy2my/app/src/Domains/Categories/CategoriesController.php(12): require_once()
+#1 /home/qef1iicpy2my/public_html/index.php(24): require_once('/home/qef1iicpy...')
+#2 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 6
+[13-Mar-2026 22:14:17 UTC] PHP Fatal error:  Type of App\Models\Admin\Product::$table must not be defined (as in class App\Models\Model) in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 7
+[13-Mar-2026 22:16:34 UTC] PHP Fatal error:  Type of App\Domains\Categories\Categories::$table must be string (as in class App\Shared\Models\Model) in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 6
+[13-Mar-2026 22:17:01 UTC] PHP Fatal error:  Type of App\Domains\Categories\Categories::$table must be string (as in class App\Shared\Models\Model) in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 6
+[13-Mar-2026 22:17:03 UTC] PHP Fatal error:  Type of App\Domains\Categories\Categories::$table must be string (as in class App\Shared\Models\Model) in /home/qef1iicpy2my/app/src/Domains/Categories/Categories.php on line 6
+[13-Mar-2026 22:17:52 UTC] PHP Fatal error:  Type of App\Models\Admin\Product::$table must not be defined (as in class App\Models\Model) in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 7
+[13-Mar-2026 22:19:16 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/public_html/app/models/admin/../Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 4
+[13-Mar-2026 22:19:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/public_html/app/models/admin/../Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/app/models/admin/Product.php:4
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/app/models/Cart.php(4): require_once()
+#1 /home/qef1iicpy2my/public_html/app/views/components/MiniCart.php(6): require_once('/home/qef1iicpy...')
+#2 /home/qef1iicpy2my/public_html/app/views/partials/header.php(241): include('/home/qef1iicpy...')
+#3 /home/qef1iicpy2my/public_html/index.php(32): include('/home/qef1iicpy...')
+#4 {main}
+  thrown in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 4
+[13-Mar-2026 22:20:13 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/public_html/app/models/admin/../Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 4
+[13-Mar-2026 22:20:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/public_html/app/models/admin/../Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/app/models/admin/Product.php:4
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/app/models/Cart.php(4): require_once()
+#1 /home/qef1iicpy2my/public_html/app/views/components/MiniCart.php(6): require_once('/home/qef1iicpy...')
+#2 /home/qef1iicpy2my/public_html/app/views/partials/header.php(241): include('/home/qef1iicpy...')
+#3 /home/qef1iicpy2my/public_html/index.php(32): include('/home/qef1iicpy...')
+#4 {main}
+  thrown in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 4
+[13-Mar-2026 22:22:25 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/public_html/app/models/admin/../../src/Shared/Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[13-Mar-2026 22:22:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/public_html/app/models/admin/../../src/Shared/Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/app/models/admin/Product.php:5
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/app/models/Cart.php(4): require_once()
+#1 /home/qef1iicpy2my/public_html/app/views/components/MiniCart.php(6): require_once('/home/qef1iicpy...')
+#2 /home/qef1iicpy2my/public_html/app/views/partials/header.php(241): include('/home/qef1iicpy...')
+#3 /home/qef1iicpy2my/public_html/index.php(32): include('/home/qef1iicpy...')
+#4 {main}
+  thrown in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[13-Mar-2026 22:24:17 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/public_html/app/models/admin/../../src/Shared/Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[13-Mar-2026 22:24:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/public_html/app/models/admin/../../src/Shared/Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/app/models/admin/Product.php:5
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/app/models/Cart.php(4): require_once()
+#1 /home/qef1iicpy2my/public_html/app/views/components/MiniCart.php(6): require_once('/home/qef1iicpy...')
+#2 /home/qef1iicpy2my/public_html/app/views/partials/header.php(241): include('/home/qef1iicpy...')
+#3 /home/qef1iicpy2my/public_html/index.php(32): include('/home/qef1iicpy...')
+#4 {main}
+  thrown in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[13-Mar-2026 22:25:36 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/public_html/app/models/admin/../../src/Shared/Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[13-Mar-2026 22:25:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/public_html/app/models/admin/../../src/Shared/Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/app/models/admin/Product.php:5
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/app/models/Cart.php(4): require_once()
+#1 /home/qef1iicpy2my/public_html/app/views/components/MiniCart.php(6): require_once('/home/qef1iicpy...')
+#2 /home/qef1iicpy2my/public_html/app/views/partials/header.php(241): include('/home/qef1iicpy...')
+#3 /home/qef1iicpy2my/public_html/index.php(32): include('/home/qef1iicpy...')
+#4 {main}
+  thrown in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[13-Mar-2026 22:26:32 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/public_html/app/models/admin/../../src/Shared/Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[13-Mar-2026 22:26:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/public_html/app/models/admin/../../src/Shared/Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/app/models/admin/Product.php:5
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/app/models/Cart.php(4): require_once()
+#1 /home/qef1iicpy2my/public_html/app/views/components/MiniCart.php(6): require_once('/home/qef1iicpy...')
+#2 /home/qef1iicpy2my/public_html/app/views/partials/header.php(241): include('/home/qef1iicpy...')
+#3 /home/qef1iicpy2my/public_html/index.php(32): include('/home/qef1iicpy...')
+#4 {main}
+  thrown in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[13-Mar-2026 22:27:14 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/public_html/app/models/admin/../../../src/Shared/Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[13-Mar-2026 22:27:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/public_html/app/models/admin/../../../src/Shared/Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/app/models/admin/Product.php:5
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/app/models/Cart.php(4): require_once()
+#1 /home/qef1iicpy2my/public_html/app/views/components/MiniCart.php(6): require_once('/home/qef1iicpy...')
+#2 /home/qef1iicpy2my/public_html/app/views/partials/header.php(241): include('/home/qef1iicpy...')
+#3 /home/qef1iicpy2my/public_html/index.php(32): include('/home/qef1iicpy...')
+#4 {main}
+  thrown in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[13-Mar-2026 22:27:43 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/public_html/app/models/admin/../../../app/src/Shared/Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[13-Mar-2026 22:27:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/public_html/app/models/admin/../../../app/src/Shared/Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/app/models/admin/Product.php:5
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/app/models/Cart.php(4): require_once()
+#1 /home/qef1iicpy2my/public_html/app/views/components/MiniCart.php(6): require_once('/home/qef1iicpy...')
+#2 /home/qef1iicpy2my/public_html/app/views/partials/header.php(241): include('/home/qef1iicpy...')
+#3 /home/qef1iicpy2my/public_html/index.php(32): include('/home/qef1iicpy...')
+#4 {main}
+  thrown in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[13-Mar-2026 22:27:55 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/public_html/app/models/admin/../../app/src/Shared/Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[13-Mar-2026 22:27:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/public_html/app/models/admin/../../app/src/Shared/Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/app/models/admin/Product.php:5
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/app/models/Cart.php(4): require_once()
+#1 /home/qef1iicpy2my/public_html/app/views/components/MiniCart.php(6): require_once('/home/qef1iicpy...')
+#2 /home/qef1iicpy2my/public_html/app/views/partials/header.php(241): include('/home/qef1iicpy...')
+#3 /home/qef1iicpy2my/public_html/index.php(32): include('/home/qef1iicpy...')
+#4 {main}
+  thrown in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[14-Mar-2026 05:37:28 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/public_html/app/controllers/../models/Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/app/controllers/HomeController.php on line 9
+[14-Mar-2026 05:37:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/public_html/app/controllers/../models/Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/app/controllers/HomeController.php:9
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/index.php(52): require_once()
+#1 {main}
+  thrown in /home/qef1iicpy2my/public_html/app/controllers/HomeController.php on line 9
+[14-Mar-2026 05:44:30 UTC] PHP Warning:  require_once(../app/views/home.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/index.php on line 52
+[14-Mar-2026 05:44:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../app/views/home.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/qef1iicpy2my/public_html/index.php on line 52
+[14-Mar-2026 05:48:20 UTC] PHP Warning:  require_once(../app/views/pages/home.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/index.php on line 52
+[14-Mar-2026 05:48:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../app/views/pages/home.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/qef1iicpy2my/public_html/index.php on line 52
+[14-Mar-2026 05:50:04 UTC] PHP Warning:  Undefined variable $h1 in /home/qef1iicpy2my/app/views/pages/home.php on line 13
+[14-Mar-2026 05:50:04 UTC] PHP Warning:  Undefined variable $h1 in /home/qef1iicpy2my/app/views/pages/home.php on line 13
+[14-Mar-2026 05:50:04 UTC] PHP Warning:  Undefined variable $profile_name in /home/qef1iicpy2my/app/views/pages/home.php on line 53
+[14-Mar-2026 05:50:04 UTC] PHP Warning:  Undefined variable $profile_name in /home/qef1iicpy2my/app/views/pages/home.php on line 54
+[14-Mar-2026 05:50:04 UTC] PHP Warning:  Undefined variable $profile_name in /home/qef1iicpy2my/app/views/pages/home.php on line 67
+[14-Mar-2026 05:50:04 UTC] PHP Warning:  Undefined variable $profile_name in /home/qef1iicpy2my/app/views/pages/home.php on line 68
+[14-Mar-2026 05:50:04 UTC] PHP Warning:  Undefined variable $h1 in /home/qef1iicpy2my/app/views/pages/home.php on line 108
+[14-Mar-2026 05:50:04 UTC] PHP Warning:  Undefined variable $h1 in /home/qef1iicpy2my/app/views/pages/home.php on line 109
+[14-Mar-2026 05:50:04 UTC] PHP Fatal error:  Uncaught Error: Class "HomeController" not found in /home/qef1iicpy2my/public_html/index.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/qef1iicpy2my/public_html/index.php on line 53
+[14-Mar-2026 05:58:24 UTC] PHP Warning:  require_once(../app/controllers/HomeController.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/index.php on line 52
+[14-Mar-2026 05:58:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../app/controllers/HomeController.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/qef1iicpy2my/public_html/index.php on line 52
+[14-Mar-2026 06:00:13 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/app/src/Domains/Home/../controllers/SEOController.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/app/src/Domains/Home/HomeController.php on line 8
+[14-Mar-2026 06:00:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/app/src/Domains/Home/../controllers/SEOController.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/app/src/Domains/Home/HomeController.php:8
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/index.php(52): require_once()
+#1 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Home/HomeController.php on line 8
+[14-Mar-2026 06:00:36 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/app/src/Domains/Home/../models/Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/app/src/Domains/Home/HomeController.php on line 9
+[14-Mar-2026 06:00:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/app/src/Domains/Home/../models/Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/app/src/Domains/Home/HomeController.php:9
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/index.php(52): require_once()
+#1 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Home/HomeController.php on line 9
+[14-Mar-2026 06:01:31 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/public_html/app/models/admin/../../app/src/Shared/Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[14-Mar-2026 06:01:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/public_html/app/models/admin/../../app/src/Shared/Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/app/models/admin/Product.php:5
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/app/models/Cart.php(4): require_once()
+#1 /home/qef1iicpy2my/public_html/app/views/components/MiniCart.php(6): require_once('/home/qef1iicpy...')
+#2 /home/qef1iicpy2my/public_html/app/views/partials/header.php(244): include('/home/qef1iicpy...')
+#3 /home/qef1iicpy2my/public_html/index.php(53): include('/home/qef1iicpy...')
+#4 {main}
+  thrown in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[14-Mar-2026 06:04:16 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/public_html/app/models/admin/../../app/src/Shared/Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[14-Mar-2026 06:04:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/public_html/app/models/admin/../../app/src/Shared/Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/public_html/app/models/admin/Product.php:5
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/app/models/Cart.php(4): require_once()
+#1 /home/qef1iicpy2my/public_html/app/views/components/MiniCart.php(6): require_once('/home/qef1iicpy...')
+#2 /home/qef1iicpy2my/public_html/app/views/partials/header.php(244): include('/home/qef1iicpy...')
+#3 /home/qef1iicpy2my/public_html/index.php(53): include('/home/qef1iicpy...')
+#4 {main}
+  thrown in /home/qef1iicpy2my/public_html/app/models/admin/Product.php on line 5
+[14-Mar-2026 06:05:26 UTC] PHP Warning:  require_once(/home/qef1iicpy2my/app/src/Domains/Home/../models/Model.php): Failed to open stream: No such file or directory in /home/qef1iicpy2my/app/src/Domains/Home/HomeController.php on line 9
+[14-Mar-2026 06:05:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/qef1iicpy2my/app/src/Domains/Home/../models/Model.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qef1iicpy2my/app/src/Domains/Home/HomeController.php:9
+Stack trace:
+#0 /home/qef1iicpy2my/public_html/index.php(52): require_once()
+#1 {main}
+  thrown in /home/qef1iicpy2my/app/src/Domains/Home/HomeController.php on line 9

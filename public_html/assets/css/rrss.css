@@ -1,0 +1,40 @@
+    #rrss {
+        position: absolute;
+        width: 50px;
+        height: 17.5%;
+        right: 0px;
+        top: 40%;
+
+        box-sizing: border-box;
+        color: white;
+        background: #ebe1f4;
+      
+        
+        
+    }
+
+    .rrss-pic {
+        position: relative;
+        text-align: center;
+        padding: 5 5 5 20;
+        width: 100%;
+        height: auto;
+        top: 10;
+    }
+
+   
+
+@media only screen and (max-width: 800px) {
+    #rrss {
+        height: 70;
+        
+    }
+
+    .rrss-pic {
+        width: 7.5%;
+        height: auto;
+        left: 35%;   
+     
+    }
+
+}

@@ -1,0 +1,200 @@
+Verificación token ejecutada
+Payload: Array
+(
+    [iss] => https://accounts.google.com
+    [azp] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [aud] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [sub] => 107316713263649795833
+    [email] => ikusa.creativestudio@gmail.com
+    [email_verified] => 1
+    [nbf] => 1773905838
+    [name] => Ikusa Creative Studio
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKcxN5ofROGA9eLv8FVxfTdPQay0-hLYs8Co9nLqoFfojnvH5a_=s96-c
+    [given_name] => Ikusa
+    [family_name] => Creative Studio
+    [iat] => 1773906138
+    [exp] => 1773909738
+    [jti] => f93869073f3ead8da038bdfa0ab2cd92acaf3523
+)
+
+Datos extraídos: google_id=107316713263649795833, email=ikusa.creativestudio@gmail.com, name=Ikusa Creative Studio
+Verificación token ejecutada
+Payload: Array
+(
+    [iss] => https://accounts.google.com
+    [azp] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [aud] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [sub] => 107316713263649795833
+    [email] => ikusa.creativestudio@gmail.com
+    [email_verified] => 1
+    [nbf] => 1773905900
+    [name] => Ikusa Creative Studio
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKcxN5ofROGA9eLv8FVxfTdPQay0-hLYs8Co9nLqoFfojnvH5a_=s96-c
+    [given_name] => Ikusa
+    [family_name] => Creative Studio
+    [iat] => 1773906200
+    [exp] => 1773909800
+    [jti] => 36616ebb6391f5cae0b8eacb007b9985e35293c9
+)
+
+Datos extraídos: google_id=107316713263649795833, email=ikusa.creativestudio@gmail.com, name=Ikusa Creative Studio
+Verificación token ejecutada
+Payload: Array
+(
+    [iss] => https://accounts.google.com
+    [azp] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [aud] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [sub] => 107316713263649795833
+    [email] => ikusa.creativestudio@gmail.com
+    [email_verified] => 1
+    [nbf] => 1773906122
+    [name] => Ikusa Creative Studio
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKcxN5ofROGA9eLv8FVxfTdPQay0-hLYs8Co9nLqoFfojnvH5a_=s96-c
+    [given_name] => Ikusa
+    [family_name] => Creative Studio
+    [iat] => 1773906422
+    [exp] => 1773910022
+    [jti] => a6fc34a4d3b30a3882d471942ae532e84dd5a5d7
+)
+
+Datos extraídos: google_id=107316713263649795833, email=ikusa.creativestudio@gmail.com, name=Ikusa Creative Studio
+Verificación token ejecutada
+Payload: Array
+(
+    [iss] => https://accounts.google.com
+    [azp] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [aud] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [sub] => 100486187403344652021
+    [email] => ikusa.ads@gmail.com
+    [email_verified] => 1
+    [nbf] => 1773906484
+    [name] => Ikusa LLC
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocLk5WbVB4Azpq2vIfNyTr959gO4_J0UfLZU5ZTNXtzrYFx8msY=s96-c
+    [given_name] => Ikusa
+    [family_name] => LLC
+    [iat] => 1773906784
+    [exp] => 1773910384
+    [jti] => 77af6e72e27bd8f17953655b9966493292027cd0
+)
+
+Datos extraídos: google_id=100486187403344652021, email=ikusa.ads@gmail.com, name=Ikusa LLC
+Verificación token ejecutada
+Payload: Array
+(
+    [iss] => https://accounts.google.com
+    [azp] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [aud] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [sub] => 107316713263649795833
+    [email] => ikusa.creativestudio@gmail.com
+    [email_verified] => 1
+    [nbf] => 1773906670
+    [name] => Ikusa Creative Studio
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKcxN5ofROGA9eLv8FVxfTdPQay0-hLYs8Co9nLqoFfojnvH5a_=s96-c
+    [given_name] => Ikusa
+    [family_name] => Creative Studio
+    [iat] => 1773906970
+    [exp] => 1773910570
+    [jti] => 60cc9f5a2abffe61474568675372df535de55136
+)
+
+Datos extraídos: google_id=107316713263649795833, email=ikusa.creativestudio@gmail.com, name=Ikusa Creative Studio
+Verificación token ejecutada
+Payload: Array
+(
+    [iss] => https://accounts.google.com
+    [azp] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [aud] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [sub] => 107316713263649795833
+    [email] => ikusa.creativestudio@gmail.com
+    [email_verified] => 1
+    [nbf] => 1773906932
+    [name] => Ikusa Creative Studio
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKcxN5ofROGA9eLv8FVxfTdPQay0-hLYs8Co9nLqoFfojnvH5a_=s96-c
+    [given_name] => Ikusa
+    [family_name] => Creative Studio
+    [iat] => 1773907232
+    [exp] => 1773910832
+    [jti] => ff3d4cf085e407853679364bba802fa404638611
+)
+
+Datos extraídos: google_id=107316713263649795833, email=ikusa.creativestudio@gmail.com, name=Ikusa Creative Studio
+Verificación token ejecutada
+Payload: Array
+(
+    [iss] => https://accounts.google.com
+    [azp] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [aud] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [sub] => 107316713263649795833
+    [email] => ikusa.creativestudio@gmail.com
+    [email_verified] => 1
+    [nbf] => 1773907334
+    [name] => Ikusa Creative Studio
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKcxN5ofROGA9eLv8FVxfTdPQay0-hLYs8Co9nLqoFfojnvH5a_=s96-c
+    [given_name] => Ikusa
+    [family_name] => Creative Studio
+    [iat] => 1773907634
+    [exp] => 1773911234
+    [jti] => c406efb70a0755f80bbae6bc678f92ae767103e4
+)
+
+Datos extraídos: google_id=107316713263649795833, email=ikusa.creativestudio@gmail.com, name=Ikusa Creative Studio
+Verificación token ejecutada
+Payload: Array
+(
+    [iss] => https://accounts.google.com
+    [azp] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [aud] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [sub] => 107316713263649795833
+    [email] => ikusa.creativestudio@gmail.com
+    [email_verified] => 1
+    [nbf] => 1773907846
+    [name] => Ikusa Creative Studio
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKcxN5ofROGA9eLv8FVxfTdPQay0-hLYs8Co9nLqoFfojnvH5a_=s96-c
+    [given_name] => Ikusa
+    [family_name] => Creative Studio
+    [iat] => 1773908146
+    [exp] => 1773911746
+    [jti] => 9567527343b5ffc56718006d765f3b9c0e971922
+)
+
+Datos extraídos: google_id=107316713263649795833, email=ikusa.creativestudio@gmail.com, name=Ikusa Creative Studio
+Verificación token ejecutada
+Payload: Array
+(
+    [iss] => https://accounts.google.com
+    [azp] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [aud] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [sub] => 107316713263649795833
+    [email] => ikusa.creativestudio@gmail.com
+    [email_verified] => 1
+    [nbf] => 1773907861
+    [name] => Ikusa Creative Studio
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKcxN5ofROGA9eLv8FVxfTdPQay0-hLYs8Co9nLqoFfojnvH5a_=s96-c
+    [given_name] => Ikusa
+    [family_name] => Creative Studio
+    [iat] => 1773908161
+    [exp] => 1773911761
+    [jti] => 40e228f3883367b0c6106d1b7970b51e5e891290
+)
+
+Datos extraídos: google_id=107316713263649795833, email=ikusa.creativestudio@gmail.com, name=Ikusa Creative Studio
+Verificación token ejecutada
+Payload: Array
+(
+    [iss] => https://accounts.google.com
+    [azp] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [aud] => 470101016904-p67175020thuuukmm1dhu92ompc6fbru.apps.googleusercontent.com
+    [sub] => 107316713263649795833
+    [email] => ikusa.creativestudio@gmail.com
+    [email_verified] => 1
+    [nbf] => 1773908082
+    [name] => Ikusa Creative Studio
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKcxN5ofROGA9eLv8FVxfTdPQay0-hLYs8Co9nLqoFfojnvH5a_=s96-c
+    [given_name] => Ikusa
+    [family_name] => Creative Studio
+    [iat] => 1773908382
+    [exp] => 1773911982
+    [jti] => 879297da64b4b5c8ef58b7c1b6a80b5cc5c191a5
+)
+
+Datos extraídos: google_id=107316713263649795833, email=ikusa.creativestudio@gmail.com, name=Ikusa Creative Studio

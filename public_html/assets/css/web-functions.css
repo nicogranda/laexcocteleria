@@ -1,0 +1,125 @@
+form {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Alinea verticalmente los elementos dentro del form */
+    gap: 10px;               /* Espacio entre input y botón */
+    margin: 80px auto 20px;  /* Empuja hacia abajo */
+}
+
+.search_bar {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--color-primary);/*#005bb5*/
+}
+
+/* Estilo para el contenedor principal */
+.info-section {
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.info-section {
+    font-family: Arial, sans-serif;
+}
+
+.info-section h2 {
+    color: var(--color-primary);
+}
+
+.info-item {
+    margin-bottom: 10px;
+    color: var(--color-text); /* Color de texto blanco por defecto */
+}
+
+.info-item a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.info-item a:hover {
+    text-decoration: underline;
+}
+
+.info-item i {
+    color: var(--color-text);
+    margin-right: 8px;
+}
+
+.no-found {
+    color: var(--color-secondary); /* Color para "No encontrado" */
+    font-style: italic;
+}
+
+.scraper-gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.scraper-gallery-item {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.scraper-gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.scraper-gallery-item p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.links-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.links-table th, .links-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.links-table th {
+    background-color: #f4f4f4;
+}
+
+.links-table a {
+    color: #fff; /* Color del texto del enlace en la tabla (blanco) */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+.links-table a:hover {
+    color: #ccc; /* Color del texto del enlace al pasar el ratón (gris claro) */
+    text-decoration: none; /* Mantiene el enlace sin subrayado al pasar el ratón */
+}
+
+.links-table a:focus {
+    outline: none; /* Elimina el borde de enfoque */
+    color: #ccc; /* Color del texto del enlace al tener el foco (gris claro) */
+    text-decoration: none; /* Mantiene el enlace sin subrayado al tener el foco */
+}

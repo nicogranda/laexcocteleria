@@ -1,0 +1,59 @@
+/* COOKIE CONSENT — LA EX COCTELERÍA */
+
+.cc-banner,.cc-modal{font-family:var(--font-primary);box-sizing:border-box;color:var(--color-text)}
+.cc-banner *,.cc-modal *{box-sizing:border-box}
+
+/* BANNER */
+.cc-banner{position:fixed;left:0;right:0;bottom:0;z-index:99999;background:#fff!important;color:var(--color-text)!important;border-top:1px solid #e5e5e5;box-shadow:0 -4px 24px rgba(0,0,0,.12);transform:translateY(100%);transition:transform .3s ease}
+.cc-banner--bottom{bottom:0}
+.cc-banner--top{top:0;bottom:auto;transform:translateY(-100%);border-top:0;border-bottom:1px solid #e5e5e5}
+.cc-banner--visible{transform:translateY(0)}
+.cc-banner__inner{max-width:1200px;margin:0 auto;padding:20px 24px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.cc-banner__text{flex:1;min-width:0}
+.cc-banner__title{margin:0 0 5px!important;padding:0!important;font-size:15px!important;line-height:1.3!important;font-weight:700!important;color:var(--color-text)!important}
+.cc-banner__desc{margin:0!important;padding:0!important;font-size:13.5px!important;line-height:1.5!important;color:var(--color-text)!important}
+.cc-banner__link{color:var(--color-brand)!important;text-decoration:underline!important}
+.cc-banner__actions{display:flex;align-items:center;gap:10px;flex-shrink:0}
+
+/* BOTONES — AISLADOS DE LOS ESTILOS GLOBALES */
+.cc-banner .cc-btn,.cc-modal .cc-btn{appearance:none!important;-webkit-appearance:none!important;width:auto!important;height:auto!important;margin:0!important;font-family:var(--font-primary)!important;font-size:13.5px!important;line-height:1!important;font-weight:600!important;padding:12px 18px!important;border-radius:10px!important;cursor:pointer!important;white-space:nowrap!important;text-transform:none!important;box-shadow:none!important;transition:opacity .15s ease!important}
+.cc-banner .cc-btn:hover,.cc-modal .cc-btn:hover{opacity:.85!important}
+
+.cc-banner .cc-btn--solid,.cc-modal .cc-btn--solid{background:var(--color-brand)!important;color:#fff!important;border:1px solid var(--color-brand)!important}
+.cc-banner .cc-btn--outline,.cc-modal .cc-btn--outline{background:#fff!important;color:var(--color-brand)!important;border:1px solid #ddd!important}
+.cc-banner .cc-btn--ghost,.cc-modal .cc-btn--ghost{background:transparent!important;color:var(--color-brand)!important;border:0!important;text-decoration:underline!important;padding-left:5px!important;padding-right:5px!important}
+
+/* MODAL */
+.cc-modal{position:fixed;inset:0;z-index:100000;display:none;align-items:center;justify-content:center;padding:20px}
+.cc-modal--visible{display:flex}
+.cc-modal__backdrop{position:absolute;inset:0;background:rgba(0,0,0,.55)}
+.cc-modal__panel{position:relative;width:100%;max-width:560px;max-height:85vh;overflow-y:auto;background:#fff!important;color:var(--color-text)!important;border-radius:10px;padding:28px;box-shadow:0 20px 60px rgba(0,0,0,.25)}
+.cc-modal__title{margin:0 0 8px!important;font-size:19px!important;line-height:1.3!important;font-weight:700!important;color:var(--color-text)!important}
+.cc-modal__intro{margin:0 0 20px!important;font-size:13.5px!important;line-height:1.5!important;color:var(--color-text)!important}
+.cc-modal__list{display:flex;flex-direction:column;gap:16px}
+.cc-modal__row{background:#fff;border:1px solid #e5e5e5;border-radius:10px;padding:14px 16px}
+.cc-modal__row-header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.cc-modal__row-title{font-weight:600;font-size:14px;color:var(--color-text)}
+.cc-modal__row-desc{margin:6px 0 0!important;font-size:13px!important;line-height:1.5!important;color:var(--color-text)!important}
+.cc-modal__badge{font-size:11px;font-weight:600;color:var(--color-text);background:#eee;padding:3px 8px;border-radius:999px;white-space:nowrap}
+.cc-modal__actions{display:flex;justify-content:flex-end;gap:10px;margin-top:22px}
+
+/* SWITCH */
+.cc-switch{position:relative;display:inline-block;width:40px;height:22px;flex-shrink:0}
+.cc-switch input{opacity:0;width:0;height:0}
+.cc-switch__slider{position:absolute;inset:0;cursor:pointer;background:#d8d8d8;border-radius:999px;transition:background-color .15s ease}
+.cc-switch__slider:before{content:"";position:absolute;width:16px;height:16px;left:3px;bottom:3px;background:#fff;border-radius:50%;box-shadow:0 1px 3px rgba(0,0,0,.2);transition:transform .15s ease}
+.cc-switch input:checked+.cc-switch__slider{background:var(--color-brand)!important}
+.cc-switch input:checked+.cc-switch__slider:before{transform:translateX(18px)}
+.cc-switch input:disabled+.cc-switch__slider{opacity:.5;cursor:not-allowed}
+
+/* MÓVIL */
+@media(max-width:640px){
+.cc-banner__inner{padding:18px 20px;flex-direction:column;align-items:stretch;gap:14px}
+.cc-banner__actions{width:100%;display:grid;grid-template-columns:1fr 1fr}
+.cc-banner__actions .cc-btn--ghost{grid-column:1/-1}
+.cc-banner__actions .cc-btn{width:100%!important}
+.cc-modal__panel{padding:22px 18px}
+.cc-modal__actions{flex-direction:column}
+.cc-modal__actions .cc-btn{width:100%!important}
+}
