@@ -25,12 +25,23 @@ final class PageController
         $components = [];
         foreach ($page['components'] as $component) {
             if ($component === 'Gallery') {
+                $gallery = new Gallery();
+                $images = $gallery->images(
+                    dirname(__DIR__, 4) . '/public_html/assets/img/portfolio',
+                    rtrim($assetBasePath, '/') . '/assets/img/portfolio'
+                );
+
+                // Mostrar las fotos existentes mientras se prepara el directorio portfolio.
+                if ($images === []) {
+                    $images = $gallery->images(
+                        dirname(__DIR__, 4) . '/public_html/assets/img/gallery',
+                        rtrim($assetBasePath, '/') . '/assets/img/gallery'
+                    );
+                }
+
                 $components[] = [
                     'type' => 'Gallery',
-                    'images' => (new Gallery())->images(
-                        dirname(__DIR__, 4) . '/public_html/assets/img/portfolio',
-                        rtrim($assetBasePath, '/') . '/assets/img/portfolio'
-                    ),
+                    'images' => $images,
                 ];
             }
         }
