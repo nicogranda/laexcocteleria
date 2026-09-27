@@ -23,6 +23,8 @@ RewriteRule ^es/?$ index.php?page=home&lang=ES [QSA,L]
 # PÁGINAS
 # ============================================
 
+RewriteRule ^(gallery|galeria|galería)/?$ index.php?page=page&slug=galeria [QSA,L]
+
 # CONTACTO ES
 RewriteRule ^es/contacto/?$ index.php?page=contact&action=index&lang=ES [QSA,L]
 RewriteRule ^es/contacto/enviar/?$ index.php?page=contact&action=mail&lang=ES [QSA,L]

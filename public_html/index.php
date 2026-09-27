@@ -47,6 +47,7 @@ require_once "../app/src/Domains/Payments/PaymentsController.php";
 require_once "../app/src/Domains/Orders/OrderController.php";
 // require_once "../app/src/Domains/Deliveries/DeliveriesController.php";
 require_once "../app/src/Domains/Contact/ContactController.php";
+require_once __DIR__ . '/../app/src/Domains/Page/PageController.php';
 require_once __DIR__ . '/../app/src/Domains/Policies/Policy.php';
 require_once __DIR__ . '/../app/src/Domains/Policies/PolicyData.php';
 
@@ -64,6 +65,7 @@ use App\Domains\Payments\PaymentsController;
 use App\Domains\Orders\OrderController;
 // use App\Domains\Deliveries\DeliveriesController;
 use App\Domains\Contact\ContactController;
+use App\Domains\Page\PageController;
 
 // use App\Domains\Legal\LegalController;
 
@@ -113,6 +115,10 @@ if (!$isApiRequest && $page !== "admin" && $page !== "products") {
 
 // Ruteo principal
 switch ($page) {
+
+    case 'page':
+        (new PageController())->show((string) ($_GET['slug'] ?? ''), (string) $assetBasePath);
+        break;
 
     case 'home':
         // $controller = new HomeController($mysqli);
