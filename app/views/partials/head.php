@@ -32,7 +32,7 @@ $seoCanonical = $seoData['canonical'] ?? $currentUrl;
 */
 
 $faviconUrl = $baseUrl . '/assets/img/favicon.png?v=6';
-$logoUrl = $baseUrl . '/assets/img/logo/laex.svg';
+$logoUrl = $baseUrl . '/assets/img/logo/laex-negro.svg';
 $ogImage = $seoData['og_image'] ?? $baseUrl . '/assets/img/hero/bartender-evento-sansebastian.png';
 
 

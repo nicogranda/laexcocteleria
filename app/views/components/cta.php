@@ -5,7 +5,7 @@
  */
 
 $cta = [
-    'logo'  => '/assets/img/logo/laex.svg',
+    'logo'  => '/assets/img/logo/laex-blanco.svg',
     'title' => '¿Preparado para sorprender a tus invitados?',
     'text'  => 'Solicita un presupuesto sin compromiso y descubre cómo podemos convertir tu celebración en una experiencia inolvidable.',
     'image' => '/assets/img/cta/coctel-cereza.jpg',
@@ -54,7 +54,6 @@ $cta = [
     width: 100%;
     height: 100%;
     object-fit: contain;
-    filter: brightness(0) invert(1);
 }
 
 .cta__content {
