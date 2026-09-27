@@ -1,0 +1,9 @@
+Options -Indexes
+RewriteEngine On
+
+# Abrir el directorio público al entrar en la raíz del proyecto.
+RewriteRule ^$ public_html/ [R=302,L]
+
+# No exponer archivos de configuración ni código fuera de public_html.
+RewriteRule (^|/)\. - [F,L]
+RewriteRule ^(app|vendor|vendor_old)(/|$) - [F,L,NC]
