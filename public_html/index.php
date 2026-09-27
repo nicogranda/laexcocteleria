@@ -10,6 +10,7 @@ $appName = $_ENV['APP_NAME'];
 $baseUrl = $_ENV['APP_URL'];
 // Ruta pública de los assets: admite MAMP en una subcarpeta y el dominio en raíz.
 $assetBasePath = rtrim(str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'] ?? '/index.php')), '/.');
+$assetBasePath = preg_replace('~/public_html$~', '', $assetBasePath);
 
 $brand   = $_ENV['APP_NAME'];
 $fbPixel = $_ENV['FACEBOOK_PIXEL_ID'] ?? '';
