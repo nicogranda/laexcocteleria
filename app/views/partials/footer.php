@@ -72,7 +72,7 @@ $baseUrl = rtrim($baseUrl ?? '', '/');
 $currentLang = strtoupper($lang ?? 'ES');
 $footerText = $footerContent[$currentLang] ?? $footerContent['ES'];
 
-$logoUrl = '/assets/img/logo/laex-blanco.svg';
+$logoUrl = $assetBasePath . '/assets/img/logo/laex-blanco.svg';
 $homeUrl = $baseUrl . '/';
 ?>
 
