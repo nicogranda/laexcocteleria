@@ -1,9 +1,10 @@
 Options -Indexes
 RewriteEngine On
 
-# Abrir el directorio público al entrar en la raíz del proyecto.
-RewriteRule ^$ public_html/ [R=302,L]
+# Construir la redirección desde la URL solicitada, no desde la ruta del disco.
+RewriteCond %{REQUEST_URI} ^(.*/)$
+RewriteRule ^$ %1public_html/ [R=302,L,NE]
 
-# No exponer archivos de configuración ni código fuera de public_html.
+# Proteger los archivos de configuración y el código del proyecto.
 RewriteRule (^|/)\. - [F,L]
 RewriteRule ^(app|vendor|vendor_old)(/|$) - [F,L,NC]
