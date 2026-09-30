@@ -17,10 +17,10 @@ $gallery = [
     ],
 
     'images' => [
-        'assets/img/gallery/coctel-espuma.png',
-        'assets/img/gallery/old-fashioned.png',
-        'assets/img/gallery/bartender-preparando.png',
-        'assets/img/gallery/espresso-martini.png',
+        'assets/img/gallery/coctel-espuma.webp',
+        'assets/img/gallery/old-fashioned.webp',
+        'assets/img/gallery/bartender-preparando.webp',
+        'assets/img/gallery/espresso-martini.webp',
     ],
 ];
 
@@ -62,10 +62,11 @@ $galleryUrl = str_starts_with($gallery['cta']['url'], '#')
         $imageUrl = $baseUrl . '/' . ltrim($image, '/');
         ?>
 
-        <div
-            class="gallery__item"
-            style="background-image: url('<?= htmlspecialchars($imageUrl, ENT_QUOTES, 'UTF-8') ?>');"
-        ></div>
+        <div class="gallery__item">
+            <img src="<?= htmlspecialchars($imageUrl, ENT_QUOTES, 'UTF-8') ?>"
+                 alt="<?= htmlspecialchars(str_replace('-', ' ', pathinfo($image, PATHINFO_FILENAME)), ENT_QUOTES, 'UTF-8') ?>"
+                 width="675" height="1200" loading="lazy" decoding="async">
+        </div>
 
     <?php endforeach; ?>
 
@@ -154,6 +155,7 @@ $galleryUrl = str_starts_with($gallery['cta']['url'], '#')
 }
 
 .gallery__item {
+    position: relative;
     width: 100%;
 
     min-height: 340px;
@@ -161,6 +163,14 @@ $galleryUrl = str_starts_with($gallery['cta']['url'], '#')
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.gallery__item img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 @media (max-width: 1024px) {

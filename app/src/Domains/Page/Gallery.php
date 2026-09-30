@@ -22,6 +22,12 @@ final class Gallery
                 continue;
             }
 
+            // Preferir la versión optimizada sin duplicar la fotografía.
+            if (in_array(strtolower($file->getExtension()), ['jpg', 'jpeg', 'png'], true)
+                && is_file($file->getPath() . DIRECTORY_SEPARATOR . pathinfo($file->getFilename(), PATHINFO_FILENAME) . '.webp')) {
+                continue;
+            }
+
             $relative = substr($file->getPathname(), strlen(rtrim($directory, DIRECTORY_SEPARATOR)) + 1);
             $segments = explode(DIRECTORY_SEPARATOR, $relative);
             $name = pathinfo($file->getFilename(), PATHINFO_FILENAME);
