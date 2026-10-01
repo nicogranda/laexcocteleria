@@ -31,7 +31,7 @@ $galleryUrl = str_starts_with($gallery['cta']['url'], '#')
     : $baseUrl . '/' . ltrim($gallery['cta']['url'], '/');
 ?>
 
-<section class="gallery">
+<section class="gallery" id="gallery">
 
     <div class="gallery__panel">
 
