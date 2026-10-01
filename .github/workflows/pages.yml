@@ -5,6 +5,8 @@ on:
       - 'app/src/Domains/Page/**'
       - 'public_html/index.php'
       - 'public_html/.htaccess'
+      - 'app/views/components/services.php'
+      - 'public_html/assets/css/landings.css'
       - 'tests/pages.php'
       - '.github/workflows/pages.yml'
   push:
@@ -12,6 +14,8 @@ on:
     paths:
       - 'app/src/Domains/Page/**'
       - 'public_html/index.php'
+      - 'app/views/components/services.php'
+      - 'public_html/assets/css/landings.css'
       - 'tests/pages.php'
 permissions:
   contents: read
@@ -25,5 +29,6 @@ jobs:
           find app/src/Domains/Page -name '*.php' -print0 | xargs -0 -n1 php -l
           php -l public_html/index.php
           php -l app/views/partials/footer.php
+          php -l app/views/components/services.php
       - name: Pages integration
         run: php tests/pages.php

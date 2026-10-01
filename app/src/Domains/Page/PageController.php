@@ -39,6 +39,8 @@ final class PageController
             'canonical' => $url, 'url' => $url, 'robots' => $t['robots'],
             'og_title' => $t['og_title'], 'og_description' => $t['og_description'],
             'twitter_title' => $t['twitter_title'], 'twitter_description' => $t['twitter_description'],
+            'og_image' => $t['hero_image'] !== null ? rtrim($baseUrl, '/') . '/' . $t['hero_image'] : null,
+            'twitter_image' => $t['hero_image'] !== null ? rtrim($baseUrl, '/') . '/' . $t['hero_image'] : null,
         ];
     }
 
@@ -48,7 +50,7 @@ final class PageController
         $translation = $data['translation'];
         $faqs = json_decode($translation['faqs'] ?? '[]', true, 512, JSON_THROW_ON_ERROR);
         $relatedPages = array_filter($this->pages->rows()['page_translations'],
-            static fn (array $item): bool => $item['slug'] !== $translation['slug']);
+            static fn (array $item): bool => $item['page_id'] >= 5 && $item['slug'] !== $translation['slug']);
         $components = [];
         foreach (array_filter(explode(',', $translation['components'] ?? '')) as $component) {
             if ($component === 'Gallery') {

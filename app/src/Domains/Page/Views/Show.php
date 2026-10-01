@@ -4,63 +4,88 @@
 /** @var array $faqs */
 /** @var array $relatedPages */
 $escape = static fn (?string $value): string => htmlspecialchars($value ?? '', ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+$publicUrl = static fn (string $path): string => rtrim($assetBasePath, '/') . '/' . ltrim($path, '/');
+$isLanding = $page['type'] === 'landing';
 ?>
-<main class="landing-page">
-    <header class="landing-hero">
-        <p class="landing-eyebrow"><?= $escape($translation['hero_eyebrow']) ?></p>
-        <h1><?= $escape($translation['h1']) ?></h1>
-        <p><?= $escape($translation['excerpt']) ?></p>
-        <?php if ($translation['hero_cta_text'] !== null): ?>
-        <a class="btn btn-primary" href="<?= $escape(rtrim($assetBasePath, '/') . $translation['hero_cta_url']) ?>"><?= $escape($translation['hero_cta_text']) ?></a>
+<link rel="stylesheet" href="<?= $escape($publicUrl('assets/css/landings.css')) ?>">
+<main class="landing-page<?= $isLanding ? '' : ' landing-page--gallery' ?>">
+    <?php if ($isLanding): ?>
+    <section class="landing-hero">
+        <div class="landing-hero__copy">
+            <nav class="landing-breadcrumb" aria-label="Ruta de navegación"><a href="<?= $escape($publicUrl('')) ?>">Inicio</a><span aria-hidden="true">/</span><span>Coctelería para eventos</span></nav>
+            <p class="landing-eyebrow">LA EX COCTELERÍA · DONOSTIA &amp; GIPUZKOA</p>
+            <h1><?= $escape($translation['h1']) ?></h1>
+            <p class="landing-hero__lead"><?= $escape($translation['excerpt']) ?></p>
+            <div class="landing-actions">
+                <a class="landing-button" href="<?= $escape($publicUrl($translation['hero_cta_url'])) ?>"><?= $escape($translation['hero_cta_text']) ?><span aria-hidden="true">↗</span></a>
+                <a class="landing-link" href="#propuesta">Conoce la propuesta <span aria-hidden="true">↓</span></a>
+            </div>
+            <p class="landing-hero__note">Carta personalizada · Cócteles sin alcohol · Presupuesto a medida</p>
+        </div>
+        <?php if ($translation['hero_image'] !== null): ?>
+        <figure class="landing-hero__visual">
+            <img src="<?= $escape($publicUrl($translation['hero_image'])) ?>" alt="<?= $escape($translation['hero_image_alt']) ?>" width="900" height="1100" fetchpriority="high" decoding="async">
+            <figcaption><span>UNA CELEBRACIÓN CON PERSONALIDAD</span><p><?= $escape($translation['hero_eyebrow']) ?></p></figcaption>
+        </figure>
         <?php endif; ?>
-    </header>
-
-    <div class="landing-content">
-        <?php // HTML editorial de confianza escrito en el modelo. Al migrar, sanitizar al guardar; nunca aceptar HTML de visitantes. ?>
-        <?= $translation['content'] ?>
-    </div>
-
-    <?php if ($faqs !== []): ?>
-        <section class="landing-faq" aria-labelledby="landing-faq-heading">
-            <h2 id="landing-faq-heading">Preguntas frecuentes</h2>
-            <?php foreach ($faqs as $faq): ?>
-                <details>
-                    <summary><?= $escape($faq['question']) ?></summary>
-                    <p><?= $escape($faq['answer']) ?></p>
-                </details>
-            <?php endforeach; ?>
-        </section>
-    <?php endif; ?>
-
-    <?php foreach ($components as $component): ?>
-        <?php if ($component['type'] === 'Gallery'): ?>
-            <?php $images = $component['images']; require __DIR__ . '/Gallery.php'; ?>
-        <?php endif; ?>
-    <?php endforeach; ?>
-
-    <?php if ($page['type'] === 'landing'): ?>
-    <section class="landing-cta">
-        <h2>Cuéntanos cómo será tu evento</h2>
-        <p>Envíanos la fecha, el lugar, el número aproximado de invitados y el horario previsto. Prepararemos una propuesta según tus necesidades y nuestra disponibilidad.</p>
-        <a class="btn btn-primary" href="<?= $escape(rtrim($assetBasePath, '/') . $translation['hero_cta_url']) ?>"><?= $escape($translation['hero_cta_text']) ?></a>
     </section>
-
-    <nav class="landing-related" aria-label="Otros servicios de coctelería">
-        <h2>Más información sobre nuestros servicios</h2>
-        <ul>
-            <?php foreach ($relatedPages as $related): ?>
-                <li><a href="<?= $escape(rtrim($assetBasePath, '/') . '/' . $related['slug']) ?>"><?= $escape($related['h1']) ?></a></li>
+    <div class="landing-band" aria-label="Características del servicio"><span>Cócteles preparados al momento</span><span>Una carta para tu evento</span><span>Coordinación con tu espacio</span></div>
+    <div class="landing-wrap">
+        <section class="landing-intro" id="propuesta">
+            <p class="landing-eyebrow">LA PROPUESTA</p>
+            <h2><?= $escape($translation['hero_eyebrow']) ?></h2>
+        </section>
+        <div class="landing-content">
+            <?php // HTML editorial controlado. Sanitizar al guardar si se incorpora edición desde un panel. ?>
+            <?= $translation['content'] ?>
+        </div>
+        <?php foreach ($components as $component): ?>
+            <?php if ($component['type'] === 'Gallery'): ?>
+                <?php $images = $component['images']; require __DIR__ . '/Gallery.php'; ?>
+            <?php endif; ?>
+        <?php endforeach; ?>
+        <section class="landing-process" aria-labelledby="landing-process-heading">
+            <div><p class="landing-eyebrow">ASÍ LO PREPARAMOS</p><h2 id="landing-process-heading">De tu idea<br>a la primera copa.</h2><p>Definimos contigo los detalles para que el servicio encaje con tu celebración.</p></div>
+            <ol>
+                <li><span aria-hidden="true">01</span><div><h3>Cuéntanos el plan</h3><p>Fecha, lugar, invitados y horario. Empezamos por conocer tu evento.</p></div></li>
+                <li><span aria-hidden="true">02</span><div><h3>Diseñamos la propuesta</h3><p>Acordamos carta, equipo y montaje según tus necesidades y el espacio.</p></div></li>
+                <li><span aria-hidden="true">03</span><div><h3>Preparamos el servicio</h3><p>Coordinamos los detalles del servicio contratado antes de la celebración.</p></div></li>
+            </ol>
+        </section>
+        <?php if ($faqs !== []): ?>
+        <section class="landing-faq" aria-labelledby="landing-faq-heading">
+            <div><p class="landing-eyebrow">ANTES DE RESERVAR</p><h2 id="landing-faq-heading">Resolvemos tus dudas.</h2></div>
+            <div class="landing-faq__items">
+            <?php foreach ($faqs as $faq): ?>
+                <details><summary><?= $escape($faq['question']) ?></summary><p><?= $escape($faq['answer']) ?></p></details>
             <?php endforeach; ?>
-        </ul>
-    </nav>
+            </div>
+        </section>
+        <?php endif; ?>
+        <section class="landing-cta">
+            <div><p class="landing-eyebrow">TU PRÓXIMO EVENTO</p><h2>El siguiente brindis<br>empieza contigo.</h2><p>Cuéntanos cuándo, dónde y con quién. Consultaremos disponibilidad y prepararemos una propuesta para tu celebración.</p></div>
+            <a class="landing-button landing-button--light" href="<?= $escape($publicUrl($translation['hero_cta_url'])) ?>"><?= $escape($translation['hero_cta_text']) ?><span aria-hidden="true">↗</span></a>
+        </section>
+        <nav class="landing-related" aria-label="Más servicios de coctelería">
+            <div class="landing-related__heading"><p class="landing-eyebrow">OTRAS OCASIONES</p><h2>Cada encuentro tiene su carta.</h2></div>
+            <div class="landing-related__grid">
+            <?php foreach ($relatedPages as $related): if ($related['hero_image'] === null) continue; ?>
+                <a class="landing-related__card" href="<?= $escape($publicUrl($related['slug'])) ?>">
+                    <img src="<?= $escape($publicUrl($related['hero_image'])) ?>" alt="" width="600" height="400" loading="lazy" decoding="async">
+                    <span><?= $escape($related['h1']) ?><span aria-hidden="true">↗</span></span>
+                </a>
+            <?php endforeach; ?>
+            </div>
+        </nav>
+    </div>
+    <?php else: ?>
+    <div class="landing-wrap">
+        <header class="landing-gallery__header"><h1><?= $escape($translation['h1']) ?></h1><p><?= $escape($translation['excerpt']) ?></p></header>
+        <?php foreach ($components as $component): ?>
+            <?php if ($component['type'] === 'Gallery'): ?>
+                <?php $images = $component['images']; require __DIR__ . '/Gallery.php'; ?>
+            <?php endif; ?>
+        <?php endforeach; ?>
+    </div>
     <?php endif; ?>
 </main>
-
-<style>
-.landing-page{max-width:1200px;margin:auto;padding:140px 24px 90px;font-family:var(--font-text)}
-.landing-hero{max-width:850px;margin-bottom:48px}.landing-hero h1{font-family:var(--font-brand);font-size:clamp(2.2rem,5vw,4rem);line-height:1.15;margin:12px 0 24px}
-.landing-page p{line-height:1.8;max-width:850px}.landing-eyebrow{color:#980c28}.landing-section,.landing-faq,.landing-cta,.landing-related{margin-top:48px}
-.landing-page h2{font-size:clamp(1.4rem,3vw,2rem);line-height:1.3}.landing-page details{border-bottom:1px solid #ddd;padding:18px 0}.landing-page summary{cursor:pointer;font-weight:600}
-.landing-page .btn{display:inline-block;background:#980c28;color:#fff;padding:14px 24px;text-decoration:none;border-radius:4px;margin-top:12px}.landing-page a:focus-visible,.landing-page summary:focus-visible{outline:3px solid #980c28;outline-offset:4px}
-.landing-related li{margin:12px 0}.landing-related a{color:#980c28}@media(max-width:768px){.landing-page{padding:100px 20px 70px}}
-</style>

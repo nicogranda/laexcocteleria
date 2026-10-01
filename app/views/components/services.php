@@ -7,36 +7,42 @@
 $services = [
     [
         'image' => 'assets/img/services/bodas.png',
+        'slug' => 'cocteleria-para-bodas',
         'icon'  => 'fa-ring',
         'title' => 'Bodas',
         'text'  => 'Haz que el día más importante sea aún más especial con una barra de cócteles elegante y personalizada.',
     ],
     [
         'image' => 'assets/img/services/eventos-corporativos.png',
+        'slug' => 'cocteleria-para-eventos-corporativos',
         'icon'  => 'fa-briefcase',
         'title' => 'Eventos Corporativos',
         'text'  => 'Presentaciones, inauguraciones, networking y fiestas de empresa con una imagen profesional.',
     ],
     [
         'image' => 'assets/img/services/cumpleanos.png',
+        'slug' => 'cocteleria-para-cumpleanos',
         'icon'  => 'fa-cake-candles',
         'title' => 'Cumpleaños',
         'text'  => 'Celebra con una carta de cócteles diseñada para sorprender a todos tus invitados.',
     ],
     [
         'image' => 'assets/img/services/despedidas.png',
+        'slug' => 'cocteleria-para-despedidas',
         'icon'  => 'fa-champagne-glasses',
         'title' => 'Despedidas',
         'text'  => 'Diversión, espectáculo y cócteles exclusivos para una noche inolvidable.',
     ],
     [
         'image' => 'assets/img/services/graduaciones.png',
+        'slug' => 'cocteleria-para-graduaciones',
         'icon'  => 'fa-graduation-cap',
         'title' => 'Graduaciones',
-        'text'  => 'Celebre el final de una etapa con una experiencia premium.',
+        'text'  => 'Celebra el final de una etapa con una experiencia premium.',
     ],
     [
         'image' => 'assets/img/services/eventos-privados.png',
+        'slug' => 'cocteleria-para-eventos-privados',
         'icon'  => 'fa-people-group',
         'title' => 'Eventos Privados',
         'text'  => 'Comuniones, aniversarios, fiestas familiares y cualquier otra celebración especial.',
@@ -47,6 +53,7 @@ $baseUrl = rtrim($baseUrl ?? '', '/');
 ?>
 
 <section class="services" id="services">
+    <span id="servicios" aria-hidden="true"></span>
 
     <div class="services__header">
         <span class="services__eyebrow">
@@ -63,10 +70,12 @@ $baseUrl = rtrim($baseUrl ?? '', '/');
         <?php foreach ($services as $service): ?>
 
             <?php
-            $imageUrl = $baseUrl . '/' . ltrim($service['image'], '/');
+            $imageUrl = rtrim($assetBasePath ?? '', '/') . '/' . ltrim($service['image'], '/');
+            $serviceUrl = rtrim($assetBasePath ?? '', '/') . '/' . $service['slug'];
             ?>
 
             <article class="services__card">
+                <a class="services__card-link" href="<?= htmlspecialchars($serviceUrl, ENT_QUOTES, 'UTF-8') ?>">
 
                 <div
                     class="services__card-image"
@@ -90,8 +99,9 @@ $baseUrl = rtrim($baseUrl ?? '', '/');
                         <?= htmlspecialchars($service['text'], ENT_QUOTES, 'UTF-8') ?>
                     </p>
 
+                    <span class="services__card-more">Descubrir servicio <span aria-hidden="true">→</span></span>
                 </div>
-
+                </a>
             </article>
 
         <?php endforeach; ?>
@@ -160,6 +170,8 @@ $baseUrl = rtrim($baseUrl ?? '', '/');
 
     box-shadow: 0 2px 6px rgba(0,0,0,0.04);
 }
+
+.services__card-link{display:block;height:100%;color:inherit;text-decoration:none}.services__card-link:focus-visible{outline:3px solid #A10926;outline-offset:-4px}.services__card-more{display:block;color:#A10926;font-weight:700;font-size:.8rem;margin-top:20px}.services__card:hover{border-color:#A10926}
 
 .services__card-image {
     position: relative;

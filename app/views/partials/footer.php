@@ -19,7 +19,7 @@ $footerContent = [
             ],
             'services' => [
                 'title' => 'Servicios',
-                'items' => ['Bodas', 'Eventos Corporativos', 'Cumpleaños', 'Despedidas', 'Eventos Privados']
+                'items' => ['Bodas', 'Eventos Corporativos', 'Cumpleaños', 'Despedidas', 'Graduaciones', 'Eventos Privados']
             ],
             'contact' => [
                 'title' => 'Contacto',
@@ -56,7 +56,7 @@ $footerContent = [
             ],
             'services' => [
                 'title' => 'Services',
-                'items' => ['Weddings', 'Corporate Events', 'Birthdays', 'Farewell Parties', 'Private Events']
+                'items' => ['Weddings', 'Corporate Events', 'Birthdays', 'Farewell Parties', 'Graduations', 'Private Events']
             ],
             'contact' => [
                 'title' => 'Contact',
@@ -121,8 +121,12 @@ $homeUrl = $baseUrl . '/';
             <div class="footer-column">
                 <h3><?= htmlspecialchars($footerText['columns']['services']['title'], ENT_QUOTES, 'UTF-8') ?></h3>
                 <ul>
-                    <?php foreach ($footerText['columns']['services']['items'] as $service): ?>
-                        <li><?= htmlspecialchars($service, ENT_QUOTES, 'UTF-8') ?></li>
+                    <?php
+                    $serviceSlugs = ['bodas', 'eventos-corporativos', 'cumpleanos', 'despedidas', 'graduaciones', 'eventos-privados'];
+                    foreach ($footerText['columns']['services']['items'] as $serviceIndex => $service):
+                        $serviceUrl = $baseUrl . '/cocteleria-para-' . $serviceSlugs[$serviceIndex];
+                    ?>
+                        <li><a href="<?= htmlspecialchars($serviceUrl, ENT_QUOTES, 'UTF-8') ?>"><?= htmlspecialchars($service, ENT_QUOTES, 'UTF-8') ?></a></li>
                     <?php endforeach; ?>
                 </ul>
             </div>

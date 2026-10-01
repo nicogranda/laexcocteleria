@@ -23,24 +23,25 @@ $headerContent = [
             ['text' => 'About',    'url' => '/#about',    'page' => 'about'],
             ['text' => 'Gallery',  'url' => '/#gallery',  'page' => 'gallery'],
             ['text' => 'FAQ',      'url' => '/#faq',      'page' => 'faq'],
-            ['text' => 'Contact',  'url' => '/es/contact',  'page' => 'contact'],
+            ['text' => 'Contact',  'url' => '/es/contacto',  'page' => 'contact'],
         ],
         'cta' => [
             'text' => 'Request a Quote',
-            'url'  => '/es/contact',
+            'url'  => '/es/contacto',
         ],
     ],
 
 ];
 
 // Selecciona el idioma actual (con fallback a ES si no existe la traducción)
+$headerUrl = static fn (string $path): string => rtrim($assetBasePath, '/') . $path;
 $headerText = $headerContent[$lang] ?? $headerContent['ES'];
 ?>
 <header class="header">
 
     <div class="container header__inner">
 
-        <a href="/" class="header__logo">
+        <a href="<?= htmlspecialchars($headerUrl('/'), ENT_QUOTES, 'UTF-8') ?>" class="header__logo">
             <img
                 src="<?= htmlspecialchars($assetBasePath, ENT_QUOTES, 'UTF-8') ?>/assets/img/logo/laex-negro.svg"
                 alt="La Ex Coctelería"
@@ -53,7 +54,7 @@ $headerText = $headerContent[$lang] ?? $headerContent['ES'];
             <?php foreach ($headerText['nav'] as $item): ?>
 
                 
-                   <a href="<?= htmlspecialchars($item['url']) ?>"
+                   <a href="<?= htmlspecialchars($headerUrl($item['url']), ENT_QUOTES, 'UTF-8') ?>"
                     class="header__link<?= ($page === $item['page']) ? ' header__link--active' : '' ?>">
 
                     <?= htmlspecialchars($item['text']) ?>
@@ -64,7 +65,7 @@ $headerText = $headerContent[$lang] ?? $headerContent['ES'];
 
         </nav>
 
-        <a href="<?= htmlspecialchars($headerText['cta']['url']) ?>" class="header__cta">
+        <a href="<?= htmlspecialchars($headerUrl($headerText['cta']['url']), ENT_QUOTES, 'UTF-8') ?>" class="header__cta">
             <?= htmlspecialchars($headerText['cta']['text']) ?>
         </a>
 
@@ -229,3 +230,4 @@ $headerText = $headerContent[$lang] ?? $headerContent['ES'];
     }
 }
 </style>
+

@@ -26,7 +26,7 @@ RewriteRule ^es/?$ index.php?page=home&lang=ES [QSA,L]
 RewriteRule ^(gallery|galeria|galería)/?$ index.php?page=page&slug=galeria [QSA,L]
 
 # LANDINGS: catálogo Page, con SEO resuelto en index.php.
-RewriteRule ^(cocteleria-eventos-donostia|catering-cocteleria-gipuzkoa|bartender-para-eventos)/?$ index.php?page=page&slug=$1 [QSA,L]
+RewriteRule ^(cocteleria-eventos-donostia|catering-cocteleria-gipuzkoa|bartender-para-eventos|cocteleria-para-bodas|cocteleria-para-eventos-corporativos|cocteleria-para-cumpleanos|cocteleria-para-despedidas|cocteleria-para-graduaciones|cocteleria-para-eventos-privados)/?$ index.php?page=page&slug=$1 [QSA,L]
 
 # CONTACTO ES
 RewriteRule ^es/contacto/?$ index.php?page=contact&action=index&lang=ES [QSA,L]
