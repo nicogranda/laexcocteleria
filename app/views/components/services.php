@@ -148,7 +148,7 @@ $baseUrl = rtrim($baseUrl ?? '', '/');
 .services__grid {
     display: grid;
 
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6, minmax(0, 1fr));
 
     gap: 1.25rem;
 
@@ -159,6 +159,7 @@ $baseUrl = rtrim($baseUrl ?? '', '/');
 }
 
 .services__card {
+    min-width: 0;
     background: #fff;
 
     border: 1px solid #eee;
@@ -238,7 +239,7 @@ $baseUrl = rtrim($baseUrl ?? '', '/');
 @media (max-width: 1100px) {
 
     .services__grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
 }
@@ -246,7 +247,7 @@ $baseUrl = rtrim($baseUrl ?? '', '/');
 @media (max-width: 700px) {
 
     .services__grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
 }
@@ -264,3 +265,4 @@ $baseUrl = rtrim($baseUrl ?? '', '/');
 }
 
 </style>
+

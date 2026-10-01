@@ -181,7 +181,7 @@ $homeUrl = $baseUrl . '/';
 
 <style>
 .footer{background:#980c28;color:#fff}
-.footer .container{max-width:1400px;margin:auto;padding:70px 20px 25px}
+.footer .container{width:100% !important;max-width:1400px;margin:auto;padding:70px 20px 25px}
 .footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:60px}
 
 .footer-brand img{display:block;width:120px;height:auto;margin-bottom:20px}

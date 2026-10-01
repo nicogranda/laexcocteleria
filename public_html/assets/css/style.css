@@ -19,6 +19,9 @@
     --font-brand:'Arial Black',Arial,Helvetica,sans-serif;
 }
 
+/* El padding forma parte del ancho: evita el desbordamiento de bloques al 100%. */
+*, *::before, *::after { box-sizing: border-box; }
+
 body {
     margin: 0 auto;
     padding: 0;

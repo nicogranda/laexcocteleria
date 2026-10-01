@@ -4,30 +4,30 @@ $headerContent = [
     'ES' => [
         'nav' => [
             ['text' => 'Inicio',    'url' => '/',          'page' => 'home'],
-            ['text' => 'Servicios', 'url' => '/#services', 'page' => 'services'],
+            ['text' => 'Servicios', 'url' => '/#servicios', 'page' => 'services'],
             ['text' => 'Nosotros',  'url' => '/#about',    'page' => 'about'],
-            ['text' => 'Galería',   'url' => '/#gallery',  'page' => 'gallery'],
-            ['text' => 'FAQ',       'url' => '/#faq',      'page' => 'faq'],
-            ['text' => 'Contacto',  'url' => '/es/contacto',  'page' => 'contact'],
+            ['text' => 'Galería',   'url' => '/galeria',  'page' => 'gallery'],
+            ['text' => 'Preguntas frecuentes',       'url' => '/#faq',      'page' => 'faq'],
+            ['text' => 'Contacto',  'url' => '/contacto',  'page' => 'contact'],
         ],
         'cta' => [
             'text' => 'Solicitar Presupuesto',
-            'url'  => '/es/contacto',
+            'url'  => '/contacto',
         ],
     ],
 
     'EN' => [
         'nav' => [
             ['text' => 'Home',     'url' => '/',          'page' => 'home'],
-            ['text' => 'Services', 'url' => '/#services', 'page' => 'services'],
+            ['text' => 'Services', 'url' => '/#servicios', 'page' => 'services'],
             ['text' => 'About',    'url' => '/#about',    'page' => 'about'],
-            ['text' => 'Gallery',  'url' => '/#gallery',  'page' => 'gallery'],
-            ['text' => 'FAQ',      'url' => '/#faq',      'page' => 'faq'],
-            ['text' => 'Contact',  'url' => '/es/contacto',  'page' => 'contact'],
+            ['text' => 'Gallery',  'url' => '/galeria',  'page' => 'gallery'],
+            ['text' => 'Preguntas frecuentes',      'url' => '/#faq',      'page' => 'faq'],
+            ['text' => 'Contact',  'url' => '/contacto',  'page' => 'contact'],
         ],
         'cta' => [
             'text' => 'Request a Quote',
-            'url'  => '/es/contacto',
+            'url'  => '/contacto',
         ],
     ],
 
@@ -35,7 +35,7 @@ $headerContent = [
 
 // Selecciona el idioma actual (con fallback a ES si no existe la traducción)
 $headerUrl = static fn (string $path): string => rtrim($assetBasePath, '/') . $path;
-$headerText = $headerContent[$lang] ?? $headerContent['ES'];
+$headerText = $headerContent['ES'];
 ?>
 <header class="header">
 
@@ -89,6 +89,7 @@ $headerText = $headerContent[$lang] ?? $headerContent['ES'];
 }
 
 .header .container {
+    width: 100% !important;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
@@ -99,6 +100,8 @@ $headerText = $headerContent[$lang] ?? $headerContent['ES'];
     align-items: center;
     justify-content: space-between;
     height: 80px;
+    gap: 24px;
+    min-width: 0;
 }
 
 .header__logo img {
@@ -111,7 +114,8 @@ $headerText = $headerContent[$lang] ?? $headerContent['ES'];
 .header__nav {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: clamp(14px, 1.8vw, 28px);
+    min-width: 0;
 }
 
 .header__link {
@@ -166,7 +170,7 @@ $headerText = $headerContent[$lang] ?? $headerContent['ES'];
     background-color: #1a1a1a;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1100px) {
     .header__nav,
     .header__cta {
         display: none;
@@ -176,7 +180,7 @@ $headerText = $headerContent[$lang] ?? $headerContent['ES'];
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1100px) {
     .header__nav {
         position: fixed;
         top: 80px;
@@ -230,4 +234,5 @@ $headerText = $headerContent[$lang] ?? $headerContent['ES'];
     }
 }
 </style>
+
 

@@ -17,7 +17,7 @@ foreach ($slugs as $slug) {
     $html = ob_get_clean();
     check(substr_count($html, '<h1>') === 1, 'La vista necesita un solo H1');
     if ($slug !== 'galeria') {
-        check(str_contains($html, 'href="/laex/es/contacto"'), 'CTA incorrecto en subcarpeta');
+        check(str_contains($html, 'href="/laex/contacto"'), 'CTA incorrecto en subcarpeta');
         check(!str_contains($html, 'page-gallery__grid'), 'Galería no solicitada');
         check(substr_count($html, '<details>') === 3, 'Faltan preguntas frecuentes');
         check(str_contains($html, '/laex/' . $data['translation']['hero_image']), 'Imagen incorrecta en subcarpeta');
@@ -40,3 +40,15 @@ foreach (['bodas','eventos-corporativos','cumpleanos','despedidas','graduaciones
     check(str_contains($cards, 'href="/laex/cocteleria-para-' . $key . '"'), 'Tarjeta sin landing: ' . $key);
 }
 echo "Páginas, galería, SEO, enlaces de subcarpeta y 404: OK\n";
+
+
+// Navegación en castellano incluso si queda una sesión inglesa anterior.
+$lang = 'EN';
+$page = 'home';
+ob_start();
+require __DIR__ . '/../app/views/partials/header.php';
+$header = ob_get_clean();
+check(str_contains($header, 'Preguntas frecuentes'), 'El menú no está en castellano');
+check(!str_contains($header, 'Request a Quote'), 'El menú usa el idioma anterior');
+check(str_contains($header, 'href="/laex/galeria"'), 'La galería debe abrir su slug');
+check(str_contains($header, 'href="/laex/contacto"'), 'Contacto necesita su slug');

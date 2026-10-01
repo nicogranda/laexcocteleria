@@ -8,6 +8,9 @@ on:
       - 'app/views/components/services.php'
       - 'public_html/assets/css/landings.css'
       - 'tests/pages.php'
+      - 'app/views/partials/header.php'
+      - 'public_html/assets/css/style.css'
+      - 'tests/home-layout.*'
       - '.github/workflows/pages.yml'
   push:
     branches: [main]
@@ -29,6 +32,15 @@ jobs:
           find app/src/Domains/Page -name '*.php' -print0 | xargs -0 -n1 php -l
           php -l public_html/index.php
           php -l app/views/partials/footer.php
+          php -l app/views/partials/header.php
           php -l app/views/components/services.php
       - name: Pages integration
         run: php tests/pages.php
+
+
+      - name: Browser layout
+        run: |
+          npm install --prefix /tmp/laex-ui --no-save playwright@1.62.1
+          /tmp/laex-ui/node_modules/.bin/playwright install --with-deps chromium
+          php -S 127.0.0.1:8765 -t . >/tmp/laex-php.log 2>&1 &
+          LAEX_PLAYWRIGHT_ROOT=/tmp/laex-ui/node_modules/playwright node tests/home-layout.cjs

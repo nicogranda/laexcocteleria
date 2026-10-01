@@ -21,8 +21,8 @@ $ahrefKey= $_ENV['AHREF_KEY'] ?? '';
    CAMBIO DE IDIOMA (POST)
 ============================= */
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'lang') {
-    $newLang = strtoupper($_POST['lang'] ?? 'EN');
-    if (in_array($newLang, ['EN','ES'])) {
+    $newLang = strtoupper($_POST['lang'] ?? 'ES');
+    if (in_array($newLang, ['ES'], true)) {
         $_SESSION['lang'] = $newLang;
     }
     header("Location: " . $_SERVER['REQUEST_URI']);
@@ -30,7 +30,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'lang'
 }
 
 $page = $_GET['page'] ?? 'home';
-$lang = $_SESSION['lang'] ?? 'ES';
+// El contenido publicado y la navegación están en castellano.
+$lang = 'ES';
+$_SESSION['lang'] = $lang;
 
 // Assets y conexion
 require __DIR__ . '/../app/src/Shared/config/assets.php';
@@ -206,4 +208,5 @@ if (!$isApiRequest && $page !== 'admin' && $page !== 'products') {
 </html>
 
 <?php ob_end_flush(); ?>
+
 

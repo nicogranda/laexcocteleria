@@ -69,7 +69,8 @@ $process = [
 }
 
 .process__step {
-    flex: 0 0 auto;
+    flex: 0 1 220px;
+    min-width: 0;
     width: 220px;
 }
 
