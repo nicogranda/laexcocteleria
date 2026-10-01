@@ -18,8 +18,17 @@ const { chromium } = require(process.env.LAEX_PLAYWRIGHT_ROOT || 'playwright');
     if (layout.scrollWidth > layout.width + 1) throw Error(`Scroll horizontal a ${width}px: ${JSON.stringify(layout)}`);
     for (const [i, slug] of ['bodas','eventos-corporativos','cumpleanos','despedidas','graduaciones','eventos-privados'].entries()) {
       const link = page.locator('.services__card-link').nth(i);
-      if (await link.getAttribute('href') !== '/cocteleria-para-' + slug) throw Error('Enlace incorrecto: ' + slug);
+      if (await link.getAttribute('href') !== '/public_html/cocteleria-para-' + slug) throw Error('Enlace incorrecto: ' + slug);
       if (await link.locator('.services__card-image').count() !== 1) throw Error('La foto no está dentro del enlace');
+    }
+  }
+  for (const slug of ['cocteleria-eventos-donostia','catering-cocteleria-gipuzkoa','bartender-para-eventos','cocteleria-para-bodas','cocteleria-para-eventos-corporativos','cocteleria-para-cumpleanos','cocteleria-para-despedidas','cocteleria-para-graduaciones','cocteleria-para-eventos-privados','galeria']) {
+    for (const width of [375, 768, 1200, 1920]) {
+      await page.setViewportSize({width, height: 900});
+      await page.goto('http://127.0.0.1:8765/tests/home-layout.php?slug=' + slug);
+      await page.evaluate(() => document.fonts.ready);
+      const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 1);
+      if (overflow) throw Error(`Scroll horizontal en ${slug} a ${width}px`);
     }
   }
   if (errors.length) throw Error(errors.join('\n'));

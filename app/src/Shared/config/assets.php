@@ -13,7 +13,8 @@ $baseUrl = rtrim($baseUrl ?? '', '/');
 $faviconUrl = $baseUrl . '/assets/img/favicon.png?v=6';
 $fontAwesomeUrl = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css';
 $fontsCssUrl = $baseUrl . '/assets/css/fonts.css';
-$styleCssUrl = $baseUrl . '/assets/css/style.css';
+$styleVersion = filemtime(dirname(__DIR__, 4) . '/public_html/assets/css/style.css');
+$styleCssUrl = rtrim($assetBasePath ?? '', '/') . '/assets/css/style.css?v=' . $styleVersion;
 ?>
 
 <!-- Favicon -->
@@ -27,3 +28,4 @@ $styleCssUrl = $baseUrl . '/assets/css/style.css';
 
 <!-- CSS Global -->
 <link rel="stylesheet" href="<?= htmlspecialchars($styleCssUrl, ENT_QUOTES, 'UTF-8') ?>">
+

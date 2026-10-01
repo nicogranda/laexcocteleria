@@ -181,9 +181,10 @@ $homeUrl = $baseUrl . '/';
 
 <style>
 .footer{background:#980c28;color:#fff}
-.footer .container{width:100% !important;max-width:1400px;margin:auto;padding:70px 20px 25px}
-.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:60px}
+.footer .container{width:calc(100% - 40px) !important;max-width:960px;margin:auto;padding:54px 0 24px}
+.footer-top{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.25fr;gap:28px}
 
+.footer-top>*{min-width:0}.footer-column a{overflow-wrap:anywhere}
 .footer-brand img{display:block;width:120px;height:auto;margin-bottom:20px}
 .footer-brand p{max-width:260px;line-height:1.7}
 
@@ -202,7 +203,7 @@ $homeUrl = $baseUrl . '/';
 .footer-whatsapp{display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(255,255,255,.35);border-radius:30px;padding:10px 18px;margin-top:20px;color:#fff;text-decoration:none}
 .footer-whatsapp:hover{background:rgba(255,255,255,.1)}
 
-.footer-bottom{border-top:1px solid rgba(255,255,255,.15);margin-top:50px;padding-top:25px;display:flex;justify-content:space-between;align-items:center}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.15);margin-top:32px;padding-top:24px;gap:24px;flex-wrap:wrap;display:flex;justify-content:space-between;align-items:center}
 .footer-bottom nav{display:flex;gap:15px;align-items:center;flex-wrap:wrap}
 .footer-bottom nav a{color:#fff;text-decoration:none}
 .footer-bottom nav a:hover{text-decoration:underline}
