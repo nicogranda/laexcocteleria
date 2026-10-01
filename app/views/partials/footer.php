@@ -11,7 +11,10 @@ $footerContent = [
                     ['text' => 'Servicios', 'url' => '#servicios'],
                     ['text' => 'Nosotros', 'url' => '#about'],
                     ['text' => 'Galería', 'url' => '#gallery'],
-                    ['text' => 'FAQ', 'url' => '#faq']
+                    ['text' => 'FAQ', 'url' => '#faq'],
+                    ['text' => 'Coctelería en Donostia', 'url' => 'cocteleria-eventos-donostia'],
+                    ['text' => 'Catering en Gipuzkoa', 'url' => 'catering-cocteleria-gipuzkoa'],
+                    ['text' => 'Bartender para eventos', 'url' => 'bartender-para-eventos']
                 ]
             ],
             'services' => [
@@ -45,7 +48,10 @@ $footerContent = [
                     ['text' => 'Services', 'url' => '#servicios'],
                     ['text' => 'About', 'url' => '#about'],
                     ['text' => 'Gallery', 'url' => '#gallery'],
-                    ['text' => 'FAQ', 'url' => '#faq']
+                    ['text' => 'FAQ', 'url' => '#faq'],
+                    ['text' => 'Coctelería en Donostia', 'url' => 'cocteleria-eventos-donostia'],
+                    ['text' => 'Catering en Gipuzkoa', 'url' => 'catering-cocteleria-gipuzkoa'],
+                    ['text' => 'Bartender para eventos', 'url' => 'bartender-para-eventos']
                 ]
             ],
             'services' => [
@@ -207,3 +213,4 @@ $homeUrl = $baseUrl . '/';
     .footer-bottom nav{justify-content:center}
 }
 </style>
+

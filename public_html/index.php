@@ -101,6 +101,17 @@ $productSlug = $_GET['slug'] ?? null;
 //$seoData = $seoController->generate($page, $productSlug);
 
 
+// Preparar páginas antes del head: SEO propio y estado HTTP correcto.
+$pageController = null;
+$pageData = null;
+if ($page === 'page') {
+    $pageController = new PageController();
+    $pageData = $pageController->prepare((string) ($_GET['slug'] ?? ''));
+    $seoData = $pageData !== null
+        ? $pageController->seo($pageData, (string) $baseUrl)
+        : ['title' => 'Página no encontrada | La Ex Coctelería', 'robots' => 'noindex,follow'];
+}
+
 // Head
 
 if (!$isApiRequest && $page !== "admin" && $page !== "products") {
@@ -117,7 +128,11 @@ if (!$isApiRequest && $page !== "admin" && $page !== "products") {
 switch ($page) {
 
     case 'page':
-        (new PageController())->show((string) ($_GET['slug'] ?? ''), (string) $assetBasePath);
+        if ($pageData === null) {
+            require __DIR__ . '/../app/views/pages/404.php';
+        } else {
+            $pageController->render($pageData, (string) $assetBasePath);
+        }
         break;
 
     case 'home':
@@ -191,3 +206,4 @@ if (!$isApiRequest && $page !== 'admin' && $page !== 'products') {
 </html>
 
 <?php ob_end_flush(); ?>
+

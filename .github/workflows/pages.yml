@@ -1,0 +1,29 @@
+name: Pages PHP
+on:
+  pull_request:
+    paths:
+      - 'app/src/Domains/Page/**'
+      - 'public_html/index.php'
+      - 'public_html/.htaccess'
+      - 'tests/pages.php'
+      - '.github/workflows/pages.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'app/src/Domains/Page/**'
+      - 'public_html/index.php'
+      - 'tests/pages.php'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: PHP syntax
+        run: |
+          find app/src/Domains/Page -name '*.php' -print0 | xargs -0 -n1 php -l
+          php -l public_html/index.php
+          php -l app/views/partials/footer.php
+      - name: Pages integration
+        run: php tests/pages.php
