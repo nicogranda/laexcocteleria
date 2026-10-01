@@ -121,6 +121,15 @@ $schemas[] = [
 $schemas[] = [
     '@context' => 'https://schema.org',
     '@type' => 'ProfessionalService',
+    'telephone' => '+34 623 11 82 45',
+    'address' => [
+        '@type' => 'PostalAddress',
+        'streetAddress' => 'Larratxo pasealekua, 30',
+        'postalCode' => '20017',
+        'addressLocality' => 'Donostia / San Sebastián',
+        'addressRegion' => 'Gipuzkoa',
+        'addressCountry' => 'ES'
+    ],
     '@id' => $baseUrl . '/#business',
     'name' => $brand,
     'url' => $baseUrl . '/',
