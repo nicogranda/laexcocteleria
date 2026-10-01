@@ -21,8 +21,8 @@ $ahrefKey= $_ENV['AHREF_KEY'] ?? '';
    CAMBIO DE IDIOMA (POST)
 ============================= */
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'lang') {
-    $newLang = strtoupper($_POST['lang'] ?? 'EN');
-    if (in_array($newLang, ['EN','ES'])) {
+    $newLang = strtoupper($_POST['lang'] ?? 'ES');
+    if (in_array($newLang, ['ES'], true)) {
         $_SESSION['lang'] = $newLang;
     }
     header("Location: " . $_SERVER['REQUEST_URI']);
@@ -30,7 +30,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'lang'
 }
 
 $page = $_GET['page'] ?? 'home';
-$lang = $_SESSION['lang'] ?? 'ES';
+// El contenido publicado y la navegación están en castellano.
+$lang = 'ES';
+$_SESSION['lang'] = $lang;
 
 // Assets y conexion
 require __DIR__ . '/../app/src/Shared/config/assets.php';
@@ -101,6 +103,17 @@ $productSlug = $_GET['slug'] ?? null;
 //$seoData = $seoController->generate($page, $productSlug);
 
 
+// Preparar páginas antes del head: SEO propio y estado HTTP correcto.
+$pageController = null;
+$pageData = null;
+if ($page === 'page') {
+    $pageController = new PageController();
+    $pageData = $pageController->prepare((string) ($_GET['slug'] ?? ''));
+    $seoData = $pageData !== null
+        ? $pageController->seo($pageData, (string) $baseUrl)
+        : ['title' => 'Página no encontrada | La Ex Coctelería', 'robots' => 'noindex,follow'];
+}
+
 // Head
 
 if (!$isApiRequest && $page !== "admin" && $page !== "products") {
@@ -117,7 +130,11 @@ if (!$isApiRequest && $page !== "admin" && $page !== "products") {
 switch ($page) {
 
     case 'page':
-        (new PageController())->show((string) ($_GET['slug'] ?? ''), (string) $assetBasePath);
+        if ($pageData === null) {
+            require __DIR__ . '/../app/views/pages/404.php';
+        } else {
+            $pageController->render($pageData, (string) $assetBasePath);
+        }
         break;
 
     case 'home':
@@ -191,3 +208,5 @@ if (!$isApiRequest && $page !== 'admin' && $page !== 'products') {
 </html>
 
 <?php ob_end_flush(); ?>
+
+
