@@ -4,9 +4,9 @@ $headerContent = [
     'ES' => [
         'nav' => [
             ['text' => 'Inicio',    'url' => '/',          'page' => 'home'],
-            ['text' => 'Servicios', 'url' => '/#servicios', 'page' => 'services'],
+            ['text' => 'Servicios', 'url' => '/#service', 'page' => 'services'],
             ['text' => 'Nosotros',  'url' => '/#about',    'page' => 'about'],
-            ['text' => 'Galería',   'url' => '/galeria',  'page' => 'gallery'],
+            ['text' => 'Galería',   'url' => '/#gallery',  'page' => 'gallery'],
             ['text' => 'Preguntas frecuentes',       'url' => '/#faq',      'page' => 'faq'],
             ['text' => 'Contacto',  'url' => '/contacto',  'page' => 'contact'],
         ],
@@ -19,9 +19,9 @@ $headerContent = [
     'EN' => [
         'nav' => [
             ['text' => 'Home',     'url' => '/',          'page' => 'home'],
-            ['text' => 'Services', 'url' => '/#servicios', 'page' => 'services'],
+            ['text' => 'Services', 'url' => '/#service', 'page' => 'services'],
             ['text' => 'About',    'url' => '/#about',    'page' => 'about'],
-            ['text' => 'Gallery',  'url' => '/galeria',  'page' => 'gallery'],
+            ['text' => 'Gallery',  'url' => '/#gallery',  'page' => 'gallery'],
             ['text' => 'Preguntas frecuentes',      'url' => '/#faq',      'page' => 'faq'],
             ['text' => 'Contact',  'url' => '/contacto',  'page' => 'contact'],
         ],
