@@ -4,10 +4,10 @@ $headerContent = [
     'ES' => [
         'nav' => [
             ['text' => 'Inicio',    'url' => '/',          'page' => 'home'],
-            ['text' => 'Servicios', 'url' => '/#services', 'page' => 'services'],
+            ['text' => 'Servicios', 'url' => '/#service', 'page' => 'services'],
             ['text' => 'Nosotros',  'url' => '/#about',    'page' => 'about'],
             ['text' => 'Galería',   'url' => '/#gallery',  'page' => 'gallery'],
-            ['text' => 'FAQ',       'url' => '/#faq',      'page' => 'faq'],
+            ['text' => 'Preguntas frecuentes',       'url' => '/#faq',      'page' => 'faq'],
             ['text' => 'Contacto',  'url' => '/es/contacto',  'page' => 'contact'],
         ],
         'cta' => [
@@ -19,7 +19,7 @@ $headerContent = [
     'EN' => [
         'nav' => [
             ['text' => 'Home',     'url' => '/',          'page' => 'home'],
-            ['text' => 'Services', 'url' => '/#services', 'page' => 'services'],
+            ['text' => 'Services', 'url' => '/#service', 'page' => 'services'],
             ['text' => 'About',    'url' => '/#about',    'page' => 'about'],
             ['text' => 'Gallery',  'url' => '/#gallery',  'page' => 'gallery'],
             ['text' => 'FAQ',      'url' => '/#faq',      'page' => 'faq'],
@@ -34,13 +34,14 @@ $headerContent = [
 ];
 
 // Selecciona el idioma actual (con fallback a ES si no existe la traducción)
-$headerText = $headerContent[$lang] ?? $headerContent['ES'];
+$headerText = $headerContent['ES'];
+$headerUrl = static fn (string $path): string => rtrim($assetBasePath ?? '', '/') . $path;
 ?>
 <header class="header">
 
     <div class="container header__inner">
 
-        <a href="/" class="header__logo">
+        <a href="<?= htmlspecialchars($headerUrl('/'), ENT_QUOTES, 'UTF-8') ?>" class="header__logo">
             <img
                 src="<?= htmlspecialchars($assetBasePath, ENT_QUOTES, 'UTF-8') ?>/assets/img/logo/laex-negro.svg"
                 alt="La Ex Coctelería"
@@ -53,7 +54,7 @@ $headerText = $headerContent[$lang] ?? $headerContent['ES'];
             <?php foreach ($headerText['nav'] as $item): ?>
 
                 
-                   <a href="<?= htmlspecialchars($item['url']) ?>"
+                   <a href="<?= htmlspecialchars($headerUrl($item['url']), ENT_QUOTES, 'UTF-8') ?>"
                     class="header__link<?= ($page === $item['page']) ? ' header__link--active' : '' ?>">
 
                     <?= htmlspecialchars($item['text']) ?>
@@ -64,7 +65,7 @@ $headerText = $headerContent[$lang] ?? $headerContent['ES'];
 
         </nav>
 
-        <a href="<?= htmlspecialchars($headerText['cta']['url']) ?>" class="header__cta">
+        <a href="<?= htmlspecialchars($headerUrl($headerText['cta']['url']), ENT_QUOTES, 'UTF-8') ?>" class="header__cta">
             <?= htmlspecialchars($headerText['cta']['text']) ?>
         </a>
 
