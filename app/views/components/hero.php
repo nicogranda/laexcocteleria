@@ -18,7 +18,7 @@ $hero = [
 
     'cta_secondary' => [
         'text' => 'Ver Servicios',
-        'url'  => '#servicios',
+        'url'  => '#service',
     ],
 ];
 
