@@ -8,7 +8,7 @@ $footerContent = [
                 'title' => 'Enlaces',
                 'items' => [
                     ['text' => 'Inicio', 'url' => ''],
-                    ['text' => 'Servicios', 'url' => '#servicios'],
+                    ['text' => 'Servicios', 'url' => '#service'],
                     ['text' => 'Nosotros', 'url' => '#about'],
                     ['text' => 'Galería', 'url' => '#gallery'],
                     ['text' => 'FAQ', 'url' => '#faq'],
@@ -23,7 +23,7 @@ $footerContent = [
             ],
             'contact' => [
                 'title' => 'Contacto',
-                'address' => 'San Sebastián, Gipuzkoa',
+                'address' => 'Larratxo pasealekua, 30, 20017 Donostia / San Sebastián, Gipuzkoa',
                 'phone' => '+34 623 11 82 45',
                 'email' => 'contacto@laexcocteleria.com',
                 'whatsapp' => ['text' => 'WhatsApp', 'url' => 'https://wa.me/34623118245']
@@ -45,7 +45,7 @@ $footerContent = [
                 'title' => 'Links',
                 'items' => [
                     ['text' => 'Home', 'url' => ''],
-                    ['text' => 'Services', 'url' => '#servicios'],
+                    ['text' => 'Services', 'url' => '#service'],
                     ['text' => 'About', 'url' => '#about'],
                     ['text' => 'Gallery', 'url' => '#gallery'],
                     ['text' => 'FAQ', 'url' => '#faq'],
@@ -60,7 +60,7 @@ $footerContent = [
             ],
             'contact' => [
                 'title' => 'Contact',
-                'address' => 'San Sebastián, Gipuzkoa',
+                'address' => 'Larratxo pasealekua, 30, 20017 Donostia / San Sebastián, Gipuzkoa',
                 'phone' => '+34 623 11 82 45',
                 'email' => 'contacto@laexcocteleria.com',
                 'whatsapp' => ['text' => 'WhatsApp', 'url' => 'https://wa.me/34623118245']
@@ -75,10 +75,11 @@ $footerContent = [
 ];
 
 $baseUrl = rtrim($baseUrl ?? '', '/');
-$currentLang = strtoupper($lang ?? 'ES');
+$currentLang = 'ES';
 $footerText = $footerContent[$currentLang] ?? $footerContent['ES'];
 
 $logoUrl = $assetBasePath . '/assets/img/logo/laex-blanco.svg';
+$baseUrl = rtrim($assetBasePath ?? '', '/');
 $homeUrl = $baseUrl . '/';
 ?>
 
