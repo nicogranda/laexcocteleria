@@ -10,7 +10,9 @@ $escape = static fn (?string $value): string => htmlspecialchars($value ?? '', E
         <p class="landing-eyebrow"><?= $escape($translation['hero_eyebrow']) ?></p>
         <h1><?= $escape($translation['h1']) ?></h1>
         <p><?= $escape($translation['excerpt']) ?></p>
+        <?php if ($translation['hero_cta_text'] !== null): ?>
         <a class="btn btn-primary" href="<?= $escape(rtrim($assetBasePath, '/') . $translation['hero_cta_url']) ?>"><?= $escape($translation['hero_cta_text']) ?></a>
+        <?php endif; ?>
     </header>
 
     <div class="landing-content">
@@ -36,6 +38,7 @@ $escape = static fn (?string $value): string => htmlspecialchars($value ?? '', E
         <?php endif; ?>
     <?php endforeach; ?>
 
+    <?php if ($page['type'] === 'landing'): ?>
     <section class="landing-cta">
         <h2>Cuéntanos cómo será tu evento</h2>
         <p>Envíanos la fecha, el lugar, el número aproximado de invitados y el horario previsto. Prepararemos una propuesta según tus necesidades y nuestra disponibilidad.</p>
@@ -50,6 +53,7 @@ $escape = static fn (?string $value): string => htmlspecialchars($value ?? '', E
             <?php endforeach; ?>
         </ul>
     </nav>
+    <?php endif; ?>
 </main>
 
 <style>

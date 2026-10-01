@@ -16,11 +16,12 @@ foreach ($slugs as $slug) {
     $controller->render($data, '/laex');
     $html = ob_get_clean();
     check(substr_count($html, '<h1>') === 1, 'La vista necesita un solo H1');
-    check(str_contains($html, 'href="/laex/es/contacto"'), 'CTA incorrecto en subcarpeta');
     if ($slug !== 'galeria') {
+        check(str_contains($html, 'href="/laex/es/contacto"'), 'CTA incorrecto en subcarpeta');
         check(!str_contains($html, 'page-gallery__grid'), 'Galería no solicitada');
         check(substr_count($html, '<details>') === 3, 'Faltan preguntas frecuentes');
     } else {
+        check(!str_contains($html, 'landing-cta"'), 'La galería debe mostrar solo su contenido');
         check(str_contains($html, 'page-gallery__grid') || str_contains($html, 'Aún no hay fotografías'), 'Falta el componente Gallery');
     }
 }
