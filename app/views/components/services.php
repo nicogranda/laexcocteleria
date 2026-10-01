@@ -52,7 +52,8 @@ $services = [
 $baseUrl = rtrim($baseUrl ?? '', '/');
 ?>
 
-<section class="services" id="services">
+<section class="services" id="service">
+    <span id="services" aria-hidden="true"></span>
     <span id="servicios" aria-hidden="true"></span>
 
     <div class="services__header">
